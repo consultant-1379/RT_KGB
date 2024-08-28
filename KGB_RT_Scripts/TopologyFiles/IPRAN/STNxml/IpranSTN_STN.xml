@@ -1,0 +1,50 @@
+<model>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,EthernetInterface=1" mimName="ONRM" mimVersion="13.2.4">
+    <attr name="depTrafficManager">SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,TrafficManager=1</attr> 
+  </mo> 
+  <mo fdn="SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,EthernetInterface=2" mimName="ONRM" mimVersion="13.2.4">
+    <attr name="depTrafficManager">SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,TrafficManager=2</attr> 
+  </mo> 
+  <mo fdn="SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,TrafficManager=1" mimName="ONRM" mimVersion="13.2.4">
+    <attr name="diffServAlgDropQThreshold_1">0</attr> 
+    <attr name="diffServAlgDropQThreshold_2">0</attr> 
+    <attr name="diffServAlgDropQThreshold_3">0</attr> 
+    <attr name="diffServAlgDropQThreshold_4">0</attr> 
+    <attr name="diffServAlgDropQThreshold_5">0</attr> 
+    <attr name="diffServAlgDropQThreshold_6">0</attr> 
+    <attr name="diffServAlgDropQThreshold_7">0</attr> 
+    <attr name="diffServAlgDropQThreshold_8">0</attr> 
+    <attr name="diffServMinRateRelative_1">0</attr> 
+    <attr name="diffServMinRateRelative_2">0</attr> 
+    <attr name="diffServMinRateRelative_3">0</attr> 
+    <attr name="diffServMinRateRelative_4">0</attr> 
+    <attr name="diffServMinRateRelative_5">0</attr> 
+    <attr name="diffServMinRateRelative_6">0</attr> 
+    <attr name="diffServMinRateRelative_7">0</attr> 
+    <attr name="diffServMinRateRelative_8">0</attr> 
+    <attr name="schedulerMaxBurstSize">0</attr> 
+    <attr name="schedulerMeanRate">0</attr> 
+    <attr name="TrafficManagerId">1</attr> 
+  </mo> 
+  <mo fdn="SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,TrafficManager=2" mimName="ONRM" mimVersion="13.2.4">
+    <attr name="diffServAlgDropQThreshold_1">0</attr> 
+    <attr name="diffServAlgDropQThreshold_2">0</attr> 
+    <attr name="diffServAlgDropQThreshold_3">0</attr> 
+    <attr name="diffServAlgDropQThreshold_4">0</attr> 
+    <attr name="diffServAlgDropQThreshold_5">0</attr> 
+    <attr name="diffServAlgDropQThreshold_6">0</attr> 
+    <attr name="diffServAlgDropQThreshold_7">0</attr> 
+    <attr name="diffServAlgDropQThreshold_8">0</attr> 
+    <attr name="diffServMinRateRelative_1">0</attr> 
+    <attr name="diffServMinRateRelative_2">0</attr> 
+    <attr name="diffServMinRateRelative_3">0</attr> 
+    <attr name="diffServMinRateRelative_4">0</attr> 
+    <attr name="diffServMinRateRelative_5">0</attr> 
+    <attr name="diffServMinRateRelative_6">0</attr> 
+    <attr name="diffServMinRateRelative_7">0</attr> 
+    <attr name="diffServMinRateRelative_8">0</attr> 
+    <attr name="schedulerMaxBurstSize">0</attr> 
+    <attr name="schedulerMeanRate">0</attr> 
+    <attr name="TrafficManagerId">2</attr> 
+  </mo> 
+</model>

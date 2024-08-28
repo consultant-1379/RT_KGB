@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Tue Dec 29 05:00:00 GMT 2020 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_RootMo,MeContext=LTE76PCC,ManagedElement=PCC02; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_RootMo,MeContext=LTE76PCC,ManagedElement=PCC02" mimName="PccTop" lastModified="1609218000104">
+ <attr name="timestampOfChange">2020-12-29 05:00:00.104</attr>
+ <attr name="userLabel">ManagedElement=PCC02</attr>
+ <attr name="managedElementType">PCC</attr>
+ <attr name="nodeVersion">1.7</attr>
+ </mo>
+</model>

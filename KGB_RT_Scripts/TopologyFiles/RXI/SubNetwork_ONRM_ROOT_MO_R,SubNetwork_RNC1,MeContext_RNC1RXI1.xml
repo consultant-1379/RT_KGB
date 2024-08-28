@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Mon Jan 11 07:37:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1" mimName="RANAG_NODE_MODEL" mimVersion="K.1.50" lastModified="1610350620025">
+ <attr name="MeContextId">RNC1RXI1</attr>
+ <attr name="neMIMversion">vK.1.50</attr>
+ <attr name="nodeVersion">W21.Q1</attr>
+ <attr name="rbsIubId">0</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO_R,Site=RNC1RXI1SITE</attr>
+ <attr name="userLabel">RNC1RXI1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,EthernetSwitchPort=1" mimName="RANAG_NODE_MODEL" mimVersion="K.1.50" lastModified="1610350620025">
+ <attr name="portNo">16017</attr>
+ <attr name="lagRef">"="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1</attr>
+ <attr name="userLabel"></attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1" mimName="RANAG_NODE_MODEL" mimVersion="K.1.50" lastModified="1610350620025">
+ <attr name="masterPort"></attr>
+ <attr name="reservedBy">
+ <seq count= "3">
+<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=1</item>
+<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=2</item>
+<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,MeContext=RNC1RXI1,ManagedElement=1,Equipment=1,Subrack=1,Slot=ET-MFX,PlugInUnit=1,ExchangeTerminalIp=1,EthernetSwitch=1,Lag=3</item>
+ </seq>
+ </attr>
+ <attr name="userLabel"> </attr>
+ </mo>
+</model>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd" >
+<!-- Generated on Mon Feb 10 17:08:02 IST 2020 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=Redback,ManagedElement=CPG01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=Redback,ManagedElement=CPG01" mimName="ONRM" mimVersion="13.2.4" lastModified="1581334682279">
+ <attr name="userLabel">CPG01</attr>
+ <attr name="nodeVersion">13B</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSCPG01</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>CPG</item>
+  </seq>
+ </attr>
+ <attr name="sourceType">
+   <seq count="1">
+    <item>Redback</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

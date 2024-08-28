@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Tue Mar 02 09:08:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=NETSim,ManagedElement=MAA01_1006; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=NETSim,ManagedElement=MAA01_1006" mimName="ONRM" mimVersion="13.2.4" lastModified="1614676080731">
+ <attr name="userLabel">MAA01_1006</attr>
+ <attr name="nodeVersion">R14B</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSMAA01_1006</attr>
+ <attr name="managedElementType">
+  <seq count="2">
+    <item>MSC</item>
+    <item>VLR</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

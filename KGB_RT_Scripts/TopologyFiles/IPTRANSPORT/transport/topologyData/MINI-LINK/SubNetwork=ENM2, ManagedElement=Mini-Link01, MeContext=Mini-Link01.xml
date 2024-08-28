@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Jan 14 11:21:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ENM2, ManagedElement=Mini-Link01, MeContext=Mini-Link01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ENM2, ManagedElement=Mini-Link01, MeContext=Mini-Link01" mimName="ONRM" mimVersion="13.2.4" lastModified="1610623260271">
+ <attr name="siteRef">SubNetwork=ONRM_ROOTMO,Site=PMS1</attr>
+ <attr name="managedElementType">
+   <seq count="1">
+    <item>MINI-LINK PT2020</item>
+   </seq>
+ </attr>
+ <attr name="nodeVersion">ML-665x 20.Q3</attr>
+ <attr name="userLabel">Mini-Link01</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

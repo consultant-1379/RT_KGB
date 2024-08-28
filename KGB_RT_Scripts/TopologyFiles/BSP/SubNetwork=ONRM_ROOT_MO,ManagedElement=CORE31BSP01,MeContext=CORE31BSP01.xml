@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Tue Feb 23 05:26:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO BSP01; Scope 8 -->
+<model>
+	<mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=CORE31BSP01,MeContext=CORE31BSP01" mimName="ONRM" lastModified="1614057960191">
+	<attr name="timestampOfChange">2021-02-23 05:26:00</attr>
+	<attr name="managedElementType">BSP</attr>
+	<attr name="nodeVersion">R19</attr>
+	<attr name="userLabel">BSP01</attr>
+	</mo>
+</model>

@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Jan 14 05:38:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="MeContextId">ERBS1</attr>
+ <attr name="neMIMversion">vE.2.9</attr>
+ <attr name="nodeVersion">21.Q1</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO_R,Site=ERBS1</attr>
+ <attr name="managedElementType">ERBS</attr>
+ <attr name="userLabel">ERBS1</attr>
+ <attr name="fingerprint">345235238gh</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="eNBId">42</attr>
+ <attr name="eNodeBPlmnId"></attr>
+ <struct>
+  <attr name="mcc">19</attr>
+  <attr name="mnc">21</attr>
+  <attr name="mnclength">2</attr>
+ </struct>
+<attr name="licCapDistrMethod">11</attr>
+ <attr name="timeZone">UTC+05:30</attr> 
+ <attr name="neMIMversion">E.2.9</attr> 
+ <attr name="worldTimeZoneId">GMT</attr> 
+ <attr name="daylightSavingsAdjust">60</attr> 
+ <attr name="statusAnr">0</attr> 
+ <attr name="statusPci"/> 
+ <attr name="timestampOfChange">2021-01-14 05:38:00.000</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=ERBS1-1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="EUtranCellFDDId">ERBS1-1</attr>
+ <attr name="cellId">1</attr>
+ <attr name="tac">1</attr>
+ <attr name="earfcndl">2</attr>
+ <attr name="earfcnul">1</attr>
+ <attr name="sectorCarrierRef"/> 
+ <attr name="lastModification">0</attr> 
+ <attr name="physicalLayerSubCellId">2</attr> 
+ <attr name="physicalLayerCellIdGroup">107</attr> 
+ <attr name="activePlmnList">
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="mcc">75</attr>
+   <attr name="mnc">96</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">25</attr>
+   <attr name="mnc">96</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">4</attr>
+   <attr name="mnc">96</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">82</attr>
+   <attr name="mnc">96</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">34</attr>
+   <attr name="mnc">96</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="mappingInfo">
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="mappingInfoSIB10">87</attr>
+   <attr name="mappingInfoSIB11">11</attr>
+   <attr name="mappingInfoSIB12">22</attr>
+   <attr name="mappingInfoSIB15">59</attr>
+   <attr name="mappingInfoSIB16">72</attr>
+   <attr name="mappingInfoSIB3">20</attr>
+   <attr name="mappingInfoSIB4">82</attr>
+   <attr name="mappingInfoSIB5">4</attr>
+   <attr name="mappingInfoSIB6">45</attr>
+   <attr name="mappingInfoSIB7">41</attr>
+   <attr name="mappingInfoSIB8">70</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mappingInfoSIB10">19</attr>
+   <attr name="mappingInfoSIB11">13</attr>
+   <attr name="mappingInfoSIB12">73</attr>
+   <attr name="mappingInfoSIB15">47</attr>
+   <attr name="mappingInfoSIB16">9</attr>
+   <attr name="mappingInfoSIB3">61</attr>
+   <attr name="mappingInfoSIB4">94</attr>
+   <attr name="mappingInfoSIB5">50</attr>
+   <attr name="mappingInfoSIB6">37</attr>
+   <attr name="mappingInfoSIB7">0</attr>
+   <attr name="mappingInfoSIB8">62</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mappingInfoSIB10">15</attr>
+   <attr name="mappingInfoSIB11">91</attr>
+   <attr name="mappingInfoSIB12">0</attr>
+   <attr name="mappingInfoSIB15">72</attr>
+   <attr name="mappingInfoSIB16">46</attr>
+   <attr name="mappingInfoSIB3">33</attr>
+   <attr name="mappingInfoSIB4">78</attr>
+   <attr name="mappingInfoSIB5">86</attr>
+   <attr name="mappingInfoSIB6">78</attr>
+   <attr name="mappingInfoSIB7">40</attr>
+   <attr name="mappingInfoSIB8">29</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mappingInfoSIB10">90</attr>
+   <attr name="mappingInfoSIB11">5</attr>
+   <attr name="mappingInfoSIB12">38</attr>
+   <attr name="mappingInfoSIB15">51</attr>
+   <attr name="mappingInfoSIB16">47</attr>
+   <attr name="mappingInfoSIB3">59</attr>
+   <attr name="mappingInfoSIB4">50</attr>
+   <attr name="mappingInfoSIB5">17</attr>
+   <attr name="mappingInfoSIB6">55</attr>
+   <attr name="mappingInfoSIB7">45</attr>
+   <attr name="mappingInfoSIB8">31</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mappingInfoSIB10">88</attr>
+   <attr name="mappingInfoSIB11">83</attr>
+   <attr name="mappingInfoSIB12">37</attr>
+   <attr name="mappingInfoSIB15">89</attr>
+   <attr name="mappingInfoSIB16">49</attr>
+   <attr name="mappingInfoSIB3">2</attr>
+   <attr name="mappingInfoSIB4">10</attr>
+   <attr name="mappingInfoSIB5">90</attr>
+   <attr name="mappingInfoSIB6">67</attr>
+   <attr name="mappingInfoSIB7">77</attr>
+   <attr name="mappingInfoSIB8">5</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="siPeriodicity">
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="siPeriodicitySI1">43</attr>
+   <attr name="siPeriodicitySI2">95</attr>
+   <attr name="siPeriodicitySI3">51</attr>
+   <attr name="siPeriodicitySI4">31</attr>
+   <attr name="siPeriodicitySI5">20</attr>
+   <attr name="siPeriodicitySI6">24</attr>
+   <attr name="siPeriodicitySI7">71</attr>
+   <attr name="siPeriodicitySI8">17</attr>
+   <attr name="siPeriodicitySI9">89</attr>
+   <attr name="siPeriodicitySI10">52</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="siPeriodicitySI1">21</attr>
+   <attr name="siPeriodicitySI2">1</attr>
+   <attr name="siPeriodicitySI3">57</attr>
+   <attr name="siPeriodicitySI4">54</attr>
+   <attr name="siPeriodicitySI5">83</attr>
+   <attr name="siPeriodicitySI6">26</attr>
+   <attr name="siPeriodicitySI7">59</attr>
+   <attr name="siPeriodicitySI8">64</attr>
+   <attr name="siPeriodicitySI9">29</attr>
+   <attr name="siPeriodicitySI10">29</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="siPeriodicitySI1">67</attr>
+   <attr name="siPeriodicitySI2">60</attr>
+   <attr name="siPeriodicitySI3">61</attr>
+   <attr name="siPeriodicitySI4">90</attr>
+   <attr name="siPeriodicitySI5">40</attr>
+   <attr name="siPeriodicitySI6">92</attr>
+   <attr name="siPeriodicitySI7">70</attr>
+   <attr name="siPeriodicitySI8">59</attr>
+   <attr name="siPeriodicitySI9">41</attr>
+   <attr name="siPeriodicitySI10">81</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="siPeriodicitySI1">36</attr>
+   <attr name="siPeriodicitySI2">69</attr>
+   <attr name="siPeriodicitySI3">99</attr>
+   <attr name="siPeriodicitySI4">72</attr>
+   <attr name="siPeriodicitySI5">35</attr>
+   <attr name="siPeriodicitySI6">30</attr>
+   <attr name="siPeriodicitySI7">56</attr>
+   <attr name="siPeriodicitySI8">15</attr>
+   <attr name="siPeriodicitySI9">45</attr>
+   <attr name="siPeriodicitySI10">63</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="siPeriodicitySI1">87</attr>
+   <attr name="siPeriodicitySI2">78</attr>
+   <attr name="siPeriodicitySI3">87</attr>
+   <attr name="siPeriodicitySI4">60</attr>
+   <attr name="siPeriodicitySI5">9</attr>
+   <attr name="siPeriodicitySI6">91</attr>
+   <attr name="siPeriodicitySI7">43</attr>
+   <attr name="siPeriodicitySI8">53</attr>
+   <attr name="siPeriodicitySI9">31</attr>
+   <attr name="siPeriodicitySI10">0</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="additionalPlmnList">
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="mcc">48</attr>
+   <attr name="mnc">21</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">8</attr>
+   <attr name="mnc">21</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">12</attr>
+   <attr name="mnc">21</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">5</attr>
+   <attr name="mnc">21</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">74</attr>
+   <attr name="mnc">21</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="userLabel">1</attr>
+ <attr name="timestampOfChange">2021-01-14 05:38:00.000</attr> 
+ <attr name="hostingDigitalUnit">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=ERBS1-1,EUtranFreqRelation=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+<attr name="eUtranFrequencyRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1</attr> 
+<attr name="createdBy">2</attr> 
+<attr name="lastModification">1</attr> 
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr> 
+  </mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=ERBS1-1,EUtranFreqRelation=1,EUtranCellRelation=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="createdBy">2</attr> 
+ <attr name="adjacentCell">SubNetwork=ONRM_RootMo_R,SubNetwork=LTE04Group,MeContext=LTE04ERBS00160,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=LTE04ERBS00160-2</attr>
+ <attr name="neighborCellRef">SubNetwork=ONRM_RootMo_R,SubNetwork=LTE04Group,MeContext=LTE04ERBS00160,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=LTE04ERBS00160-2,EUtranFreqRelation=1,EUtranCellRelation=1</attr>
+ <attr name="anrCreated">false</attr>
+ <attr name="isRemoveAllowed">false</attr>
+ <attr name="isHoAllowed">true</attr>
+ <attr name="lastModification">0</attr> 
+ <attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="arfcnValueEUtranDl">7212</attr> 
+ <attr name="timestampOfChange">2021-01-14 05:38:00.000</attr> 
+ </mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,TermPointToMme=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="mmeGIListLTERelated"> 
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="mcc">44</attr>
+   <attr name="mnc">39</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">25</attr>
+   <attr name="mnc">39</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">73</attr>
+   <attr name="mnc">39</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">82</attr>
+   <attr name="mnc">39</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">8</attr>
+   <attr name="mnc">39</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="mmeCodeListLTERelated">  
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="mcc">83</attr>
+   <attr name="mnc">6</attr>
+   <attr name="mnclength">1</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">95</attr>
+   <attr name="mnc">6</attr>
+   <attr name="mnclength">1</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">77</attr>
+   <attr name="mnc">6</attr>
+   <attr name="mnclength">1</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">17</attr>
+   <attr name="mnc">6</attr>
+   <attr name="mnclength">1</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">35</attr>
+   <attr name="mnc">6</attr>
+   <attr name="mnclength">1</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="servedPlmnListLTERelated"> 
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="mcc">5</attr>
+   <attr name="mnc">48</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">76</attr>
+   <attr name="mnc">48</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">37</attr>
+   <attr name="mnc">48</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">5</attr>
+   <attr name="mnc">48</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">96</attr>
+   <attr name="mnc">48</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+ <attr name="timestampOfChange">2021-01-14 05:38:00.000</attr> 
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=ERBS-SUBNW-1,MeContextTermPointToENB=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="TermPointToENBId">2</attr> 
+ <attr name="lastModification">2</attr> 
+<attr name="createdBy">1</attr> 
+ <attr name="administrativeState">0</attr> 
+<attr name="sourceFDN">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1</attr> 
+<attr name="targetFDN"> 
+  <struct> 
+    <attr name="eNBId">63</attr> 
+    <attr name="eNodeBPlmnId"> 
+      <struct> 
+        <attr name="mcc">9</attr> 
+        <attr name="mnc">21</attr> 
+        <attr name="mncLength">2</attr> 
+      </struct> 
+    </attr> 
+  </struct> 
+</attr> 
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=ERBS-SUBNW-1,MeContext" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="eNBId">71</attr>
+<attr name="eNodeBPlmnId">
+<struct>
+<attr name="mcc">88</attr>
+<attr name="mnc">21</attr>
+<attr name="mncLength">2</attr>
+</struct>
+</attr>
+<attr name="lastModification">1610602680559</attr>
+<attr name="createdBy">4</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=ERBS-SUBNW-1,MeContext,ExternalEUtranCellFDD=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="localCellId">35</attr>
+<attr name="physicalLayerSubCellId">0</attr>
+<attr name="physicalLayerCellIdGroup">0</attr>
+<attr name="tac">1</attr>
+<attr name="dlchannelBandwidth">3000</attr>
+<attr name="ulchannelBandwidth">5000</attr>
+<attr name="createdBy">4</attr>
+<attr name="lastModification">1610602680559</attr>
+<attr name="activePlmnList">
+ <seq count="5">
+ <item >
+  <struct>
+   <attr name="mcc">2</attr>
+   <attr name="mnc">43</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">78</attr>
+   <attr name="mnc">43</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">76</attr>
+   <attr name="mnc">43</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">42</attr>
+   <attr name="mnc">43</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ <item >
+  <struct>
+   <attr name="mcc">34</attr>
+   <attr name="mnc">43</attr>
+   <attr name="mnclength">2</attr>
+  </struct>
+ </item >
+ </seq>
+</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,GigaBitEthernet=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="portNo">1</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,IpOam=1,Ip=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="nodeIpAddress"/>
+<attr name="nodeIpv6Address"/>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ManagedElementData=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="nodeLocalTimeZone"/>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=LTE04ERBS00002-1,UtranFreqRelation=10563,UtranCellRelation=643" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCellTDD=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,UtraNetwork=1,UtranFrequency=10563,ExternalUtranCellTDD=643</attr>
+<attr name="isHoAllowed">true</attr>
+<attr name="timeOfCreation"/>
+<attr name="UtranCellRelationId">643</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=ERBS1-1,UtranFreqRelation=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCellTDD=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,UtraNetwork=1,UtranFrequency=10563,ExternalUtranCellTDD=643</attr>
+<attr name="isHoAllowed">true</attr>
+<attr name="timeOfCreation"/>
+<attr name="UtranCellRelationId">643</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=ERBS1-1,UtranFreqRelation=1,UtranCellRelation=1" mimName="ERBS_NODE_MODEL" mimVersion="E.2.9" lastModified="1610602680559">
+ <attr name="createdBy">2</attr> 
+ <attr name="adjacentCell">SubNetwork=ONRM_RootMo_R,SubNetwork=LTE04Group,MeContext=LTE04ERBS00160,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=LTE04ERBS00160-2</attr>
+ <attr name="neighborCellRef">SubNetwork=ONRM_RootMo_R,SubNetwork=LTE04Group,MeContext=LTE04ERBS00160,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=LTE04ERBS00160-2,UtranFreqRelation=1,UtranCellRelation=1</attr>
+ <attr name="anrCreated">false</attr>
+ <attr name="isRemoveAllowed">false</attr>
+ <attr name="isHoAllowed">true</attr>
+ <attr name="lastModification">1</attr> 
+ <attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=LTE04ERBS00002-3,GeranFreqGroupRelation=9,GeranCellRelation=10" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCellTDD=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalGeranCellRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=966</attr>
+<attr name="GeranCellRelationId">10</attr>
+<attr name="timeOfCreation"/>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,NbIotCell=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="NbIotCellId">10</attr>
+<attr name="timeOfCreation"/>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+<attr name="siPeriodicitySI2">1</attr>
+<attr name="siPeriodicitySI14">1</attr>
+<attr name="siPeriodicitySI3">1</attr>
+<attr name="mappingInfoNbSIB4">1</attr>
+<attr name="siPeriodicitySI116">1</attr>
+<attr name="mappingInfoNbSIB16">1</attr>
+<attr name="mappingInfoNbSIB3">1</attr>
+<attr name="mappingInfoNbSIB14">1</attr>
+<attr name="siPeriodicitySI5">1</attr>
+<attr name="siPeriodicitySI4">1</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=ERBS1-1,GeranFreqGroupRelation=1,GeranCellRelation=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,ExternalUtranCellTDD=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalGeranCellRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,GeraNetwork=1,ExternalGeranCell=966</attr>
+<attr name="GeranCellRelationId">10</attr>
+<attr name="timeOfCreation"/>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=LTE04ERBS00002-1,BbProcessingResource=9" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,BbProcessingResource=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,BbProcessingResource=643</attr>
+<attr name="timeOfCreation"/>
+<attr name="licCapDistr">10</attr>
+ <attr name="userLabel">ERBS11</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,Equipment=1;Subrack=1;Slot=1;PlugInUnit=1;DeviceGroup=1,BbProcessingResource=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,BbProcessingResource=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,BbProcessingResource=643</attr>
+<attr name="timeOfCreation"/>
+<attr name="licCapDistr">10</attr>
+ <attr name="userLabel">ERBS11</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=LTE04ERBS00002-1,Paging=11" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,Paging=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="externalUtranCellFDDRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,Paging=643</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">10</attr>
+ <attr name="userLabel">ERBS11</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=LTE04ERBS00002-1,PmUlInterferenceReport=12" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,PmUlInterferenceReport=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="rfBranchRxRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,PmUlInterferenceReport=643</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">10</attr>
+<attr name="PmUlInterferenceReportId">643</attr>
+<attr name="SectorCarrier">34</attr>
+ <attr name="userLabel">ERBS11</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,EUtranCellTDD=LTE04ERBS00002-1,SectorCarrier=13" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,SectorCarrier=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="reservedBy">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,SectorCarrier=643</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">10</attr>
+ <attr name="userLabel">ERBS11</attr>
+<attr name="SectorCarrierId">643</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,SpectrumSharingFunction=123,SharingGroup=123" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr> 
+<attr name="gUtranCellRelationRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,GNBDUFunction=1,NRCellDU=ERBS1</attr> 
+ <attr name="schedPolicy">FAIR</attr>
+ <attr name="sharingGroupId">123</attr>
+<attr name="eUtranCellRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,GNBDUFunction=1,NRCellDU=ERBS1</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,SectorCarrier=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,SectorCarrier=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="reservedBy">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,SectorCarrier=643</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">10</attr>
+ <attr name="userLabel">ERBS11</attr>
+<attr name="SectorCarrierId">643</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-1,MeContext=ERBS1,ManagedElement=1,ENodeBFunction=1,SectorCarrier=1,PmUlInterferenceReport=1" mimName="ERBS_NODE_MODEL" lastModified="1610602680559">
+<attr name="adjacentCell">SubNetwork=ONRM_ROOT_MO_R,PmUlInterferenceReport=643</attr>
+<attr name="createdBy">1</attr>
+<attr name="rfBranchRxRef">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=ERBS-SUBNW-4,MeContext=LTE04ERBS00002,ManagedElement=1,ENodeBFunction=1,PmUlInterferenceReport=643</attr>
+<attr name="timeOfCreation"/>
+<attr name="nB">10</attr>
+<attr name="PmUlInterferenceReportId">643</attr>
+<attr name="SectorCarrier">34</attr>
+ <attr name="userLabel">ERBS11</attr>
+<attr name="timestampOfChange">2021-01-14 05:38:00.000</attr>
+</mo>
+</model>

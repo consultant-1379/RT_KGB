@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<!-- VlanConnectivity MO sample --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,Connections=1,VlanConnectivity=VLAN_57351647961"> 
+<attr name="VlanConnectivityId">VLAN_57351647961</attr> 
+<attr name="higherLayer">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,Connections=1,IpSubnet=30.0.0.0/25</attr> 
+<attr name="connectedCep"> 
+		<seq count="1">	
+ 			<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1,Connections=1,ConnectionEndPoint=VC_6985222</item> 
+		</seq> 
+</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+<!-- IubLink MO --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-RNC-TEST_NETWORK,Connections=1,IubLink=TestIubLink1"> 
+<attr name="lowerLayer"> 
+	   <seq count="1">	
+		  <item>LLayer1</item>	
+	    </seq> 
+</attr> 
+<attr name="rbsCep">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-RNC-TEST_NETWORK,Connections=1,ConnectionEndPoint=TestIubCepRbs1</attr> 
+<attr name="IubLinkId">TestIubLink1</attr> 
+<attr name="rncCep">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-RNC-TEST_NETWORK,Connections=1,ConnectionEndPoint=TestIubCepRnc1</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+<!-- OamLink MO --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-STN-TEST_NETWORK,Connections=1,OamLink=TestOamLinkStn1"> 
+<attr name="lowerLayer"> 
+	   <seq count="1">	
+		  <item>LLayer1</item>	
+	    </seq> 
+</attr> 
+<attr name="OamLinkId">TestOamLinkStn1</attr> 
+<attr name="managedNodeCep">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-STN-TEST_NETWORK,Connections=1,ConnectionEndPoint=TestOamCepStn1</attr> 
+<attr name="managementSystemAddress">10.44.80.43</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+<!-- S1cLink MO --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-S1C-LINK,Connections=1,S1cLink=TestS1cLink1"> 
+<attr name="lowerLayer"> 
+	   <seq count="1">	
+		  <item>LLayer1</item>	
+	    </seq> 
+</attr> 
+<attr name="mmeCep">NOT_DEFINED</attr> 
+<attr name="S1cLinkId">TestS1cLink</attr> 
+<attr name="erbsCep">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-STN-TEST_NETWORK,Connections=1,ConnectionEndPoint=TestOamCepStn1</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+<!-- VlanLink MO Sample --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Main=VLAN_566601303891"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Main=VLAN_566601303891"</attr> 
+<attr name="VlanLinkId">VLAN_566601303891</attr> 
+<attr name="refBridge">refBridge</attr> 
+<attr name="vlanTag">31</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Lower=VLAN_566601303891"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Main=VLAN_566601303891"</attr> 
+<attr name="lowerLayer"> 
+	   <seq count="1">	
+		  <item>LLayer1</item>	
+	    </seq> 
+</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VLAN=VLAN_769159261054,VlanLink_Cep=VLAN_566601303891"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Main=VLAN_566601303891"</attr> 
+<attr name="connectedCep"> 
+		<seq count="1">	
+ 			<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,ConnectionEndPoint=VLAN_614895134</item> 
+		</seq> 
+</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_higher=VLAN_566601303891"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Main=VLAN_566601303891"</attr> 
+<attr name="higherLayer"> 
+	   <seq count="1">	
+		  <item>HLayer1</item>	
+	    </seq> 
+</attr> 
+</mo> 
+<!-- IpSubnet MO sample --> 
+<!-- IpSubnet_Main --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet_Main=123.45.12.0/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet=123.45.12.0/29</attr> 
+<attr name="ipSubnetAddress">123.45.12.0/29</attr> 
+<attr name="IpSubnetId">123.45.12.0/29</attr> 
+<attr name="userLabel"></attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet_Cep=123.45.12.0/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet=123.45.12.0/29</attr> 
+<attr name="connectedCep"> 
+		<seq count="1">	
+ 			<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,ConnectionEndPoint=IPS_831.16.70.4/29</item> 
+		</seq> 
+</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet_Lower=123.45.12.0/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet=123.45.12.0/29</attr> 
+<attr name="lowerLayer"> 
+	   <seq count="1">	
+		  <item>Layer1</item>	
+	    </seq> 
+</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet_Higher=123.45.12.0/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,IpSubnet=123.45.12.0/29</attr> 
+<attr name="higherLayer"> 
+	   <seq count="1">	
+		  <item>HLayer1</item>	
+	    </seq> 
+</attr> 
+</mo> 
+<!-- IPV6subnet  MO -->  
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet_Main=x.x.x.x.x.x/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet=505.20.12.6/29"</attr> 
+<attr name="Ipv6SubnetId">IPSubnetID1</attr> 
+<attr name="Ipv6SubnetAddress">172.16.54.190</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet_Cep=x.x.x.x.x.x/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet=364.27.34.9/29"</attr> 
+<attr name="connectedCep"> 
+		<seq count="1">	
+ 			<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,ConnectionEndPoint=IPR_542509879</item> 
+		</seq> 
+</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet_Higher=x.x.x.x.x.x/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet=925.79.93.0/29"</attr> 
+	<attr name="higherLayer"> 
+	   <seq count="1">	
+		  <item>HLayer1</item>	
+	    </seq> 
+</attr> 
+</mo> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet_Lower=458.21.74.5/29"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,Ipv6Subnet=813.28.13.2/29"</attr> 
+<attr name="lowerLayer"> 
+	   <seq count="1">	
+		  <item>LLayer1</item>	
+	    </seq> 
+</attr> 
+</mo> 
+<!-- Add EthernetService Lower --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1228,Connections=1,EthernetService='eth'">  
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=RNC1228,Connections=1,EthernetService='eth'</attr>  
+<attr name="lowerLayer"> 
+	   <seq count="1">	
+		  <item>LLayer1</item>	
+	    </seq> 
+</attr> 
+</mo> 
+<!-- VlanConnectivity_to_VlanLink relation --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity_to_VlanLink=VLAN_769159261054"> 
+<attr name="VlanConnectivity">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054</attr> 
+<attr name="VlanLink"> 
+		<seq count="1">	
+ 			<item>SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_484785763</item> 
+		</seq> 
+</attr> 
+</mo> 
+<!-- Link MO Sample --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,Link=VLAN_566601303891"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Main=VLAN_566601303891"</attr> 
+<attr name="VlanLinkId">VLAN_566601303891</attr> 
+<attr name="refBridge">refBridge</attr> 
+<attr name="vlanTag">31</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+<!-- ConnectionEndPoint MO Sample --> 
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,ConnectionEndPoint=VLAN_566601303891"> 
+<!-- Store the fdn_original as fdn when storing in database --> 
+<attr name="fdn_original">SubNetwork=ONRM_ROOT_MO_R,SubNetwork=TEST-IPR-TEST_NETWORK,Connections=1,VlanConnectivity=VLAN_769159261054,VlanLink_Main=VLAN_566601303891"</attr> 
+<attr name="VlanLinkId">VLAN_566601303891</attr> 
+<attr name="refBridge">refBridge</attr> 
+<attr name="vlanTag">31</attr> 
+<attr name="userLabel">userLabel</attr> 
+</mo> 
+</model>

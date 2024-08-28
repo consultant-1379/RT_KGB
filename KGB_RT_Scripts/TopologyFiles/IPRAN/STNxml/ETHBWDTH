@@ -1,0 +1,3 @@
+EthInterface;Bandwidth
+SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,EthernetInterface=1;1024
+SubNetwork=ONRM_ROOT_MO_R,MeContext=STN_SH,ManagedElement=STN_SH,STN=1,EthernetInterface=2;2048

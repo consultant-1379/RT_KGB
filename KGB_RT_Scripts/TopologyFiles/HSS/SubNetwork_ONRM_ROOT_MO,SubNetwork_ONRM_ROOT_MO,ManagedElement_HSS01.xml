@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Mar 04 12:15:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=ONRM_ROOT_MO,ManagedElement=HSS01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=ONRM_ROOT_MO,ManagedElement=HSS01" mimName="ONRM" mimVersion="13.2.4" lastModified="1614860100351">
+ <attr name="userLabel">HSS01</attr>
+ <attr name="nodeVersion">16A</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSHSS01</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>HSS</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

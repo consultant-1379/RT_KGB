@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="MeContext=MINI-LINK01,ManagedElement=MINI-LINK01" mimName="MINI-LINK-6352_NODE_MODEL" lastModified="1610623260312">
+	<attr name="timestampOfChange">2021-01-14 11:21:00.312</attr>
+ <attr name="managedElementType">MINI-LINK-6352</attr>
+ <attr name="nodeVersion">M20.Q2-6352-2.18</attr>
+ <attr name="userLabel">MINI-LINK01</attr>
+ </mo>
+</model>

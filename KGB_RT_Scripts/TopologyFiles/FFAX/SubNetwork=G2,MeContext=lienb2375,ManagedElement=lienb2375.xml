@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375" mimName="ECIM_Top" lastModified="1474553403802">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.802</attr>
+	<attr name="neMIMversion">17A-R2YX</attr>
+	<attr name="utcOffset">+00:00</attr>
+	<attr name="nodeVersion">20.Q2</attr>
+	<attr name="userLabel">lienb2375</attr>
+	<attr name="swVersion">CXP9024418/5_R11D</attr>
+	<attr name="managedElementType">RadioNode</attr>
+	<attr name="release">17A</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1" mimName="ECIM_Top" lastModified="1474553403324">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.324</attr>
+	<attr name="neMIMversion">17A-R2YX</attr>
+	<attr name="rrcConnReestActive">false</attr>
+	<attr name="eNodeBPlmnId">
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+</attr>
+	<attr name="mfbiSupport">false</attr>
+	<attr name="eNBId">202375</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,AnrFunction=1,AnrFunctionEUtran=1" mimName="ECIM_Top" lastModified="1474553403463">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.463</attr>
+	<attr name="anrIntraFreqState">1</attr>
+	<attr name="anrInterFreqState">0</attr>
+	<attr name="hoAllowedEutranPolicy">true</attr>
+	<attr name="x2SetupPolicy">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,AnrFunction=1,AnrFunctionGeran=1" mimName="ECIM_Top" lastModified="1474553403463">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.463</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	<attr name="anrGeranRacMeasOn">true</attr>
+	<attr name="anrStateGsm">0</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,AnrFunction=1,AnrFunctionUtran=1" mimName="ECIM_Top" lastModified="1474553403464">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.464</attr>
+	<attr name="anrStateUtran">0</attr>
+	<attr name="anrUtranAcMeasOn">true</attr>
+	<attr name="hoAllowedUtranPolicy">true</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1" mimName="ECIM_Top" lastModified="1474553403488">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.488</attr>
+	<attr name="arfcnValueEUtranDl">2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtranCellFDD=1" mimName="ECIM_Top" lastModified="1474553403489">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.489</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="altitude">0</attr>
+	<attr name="eUtranCellFDDId">1</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="tac">6328</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="ulChannelBandwidth">10000</attr>
+	<attr name="earfcnul">20900</attr>
+	<attr name="cellId">1</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">7</attr>
+	<attr name="physicalLayerSubCellId">0</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,SectorCarrier=1</item>
+	</seq>
+</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="physicalLayerCellIdGroup">75</attr>
+	<attr name="latitude">0</attr>
+	<attr name="earfcndl">2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtranCellFDD=1,EUtranFreqRelation=1" mimName="ECIM_Top" lastModified="1474553403536">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.536</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="eutranFrequencyRef">SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtranCellFDD=2" mimName="ECIM_Top" lastModified="1474553403611">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.611</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="altitude">0</attr>
+	<attr name="eUtranCellFDDId">2</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="tac">6328</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="ulChannelBandwidth">10000</attr>
+	<attr name="earfcnul">20900</attr>
+	<attr name="cellId">2</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">7</attr>
+	<attr name="physicalLayerSubCellId">1</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,SectorCarrier=2</item>
+	</seq>
+</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="physicalLayerCellIdGroup">75</attr>
+	<attr name="latitude">0</attr>
+	<attr name="earfcndl">2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtranCellFDD=2,EUtranFreqRelation=1" mimName="ECIM_Top" lastModified="1474553403615">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.615</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="eutranFrequencyRef">SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,SectorCarrier=1" mimName="ECIM_Top" lastModified="1474553403707">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.707</attr>
+	<attr name="sectorCarrierId">1</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtranCellFDD=1</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,SectorCarrier=2" mimName="ECIM_Top" lastModified="1474553403708">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.708</attr>
+	<attr name="sectorCarrierId">2</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,EUtranCellFDD=2</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,ENodeBFunction=1,TermPointToMme=1" mimName="ECIM_Top" lastModified="1474553403710">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.710</attr>
+	<attr name="mmeCodeListLTERelated">
+	<seq count="1">
+	<item>24</item>
+	</seq>
+</attr>
+	<attr name="servedPlmnListLTERelated">
+	<seq count="2">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">84</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="mmeGIListLTERelated">
+	<seq count="1">
+	<item>32768</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,SystemFunctions=1,SysM=1,OamAccessPoint=1" mimName="ECIM_Top" lastModified="1474553403235">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.235</attr>
+	<attr name="accessPoint">SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,Transport=1,Router=OaM,InterfaceIPv4=OaM,AddressIPv4=1</attr>
+	<attr name="oamAccessPointId">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,SystemFunctions=1,SysM=1,OamAccessPoint=Alternative" mimName="ECIM_Top" lastModified="1474553403235">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.235</attr>
+	<attr name="oamAccessPointId">Alternative</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,Transport=1,Router=OaM,InterfaceIPv4=OaM,AddressIPv4=1" mimName="ECIM_Top" lastModified="1474553403306">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.306</attr>
+	<attr name="address">10.75.102.241/24</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=lienb2375,ManagedElement=lienb2375,Transport=1,Router=UP,InterfaceIPv4=UP,AddressIPv4=1" mimName="ECIM_Top" lastModified="1474553403309">
+	<attr name="timestampOfChange">2016-09-22 15:10:03.309</attr>
+	<attr name="address">10.75.103.241/24</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+</model>

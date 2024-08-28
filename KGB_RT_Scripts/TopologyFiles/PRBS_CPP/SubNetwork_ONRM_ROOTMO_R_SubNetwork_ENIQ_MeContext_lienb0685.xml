@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685" mimName="ERBS_NODE_MODEL" lastModified="1438953481176">
+    <attr name="MeContextId">lienb0685</attr>
+    <attr name="userLabel">lienb0685</attr>
+    <attr name="neMIMversion">vG.1.42</attr>
+    <attr name="timestampOfChange">2015-08-07 13:18:01.176</attr>
+    <attr name="swVersion">CXP102051/24_R3KZ</attr>
+    <attr name="siteRef">SubNetwork=ONRM_ROOTMO_R,Site=Athlone</attr>
+    <attr name="fingerprint"/>
+    <attr name="nodeVersion">L16A</attr>
+    <attr name="prodDesignation">0</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1" mimName="ERBS_NODE_MODEL" lastModified="1438776335178">
+    <attr name="eNBId">200685</attr>
+    <attr name="eNodeBPlmnId">
+      <struct>
+        <attr name="mcc">262</attr>
+        <attr name="mnc">80</attr>
+        <attr name="mncLength">2</attr>
+      </struct>
+    </attr>
+    <attr name="timeZone">UTC+00:00</attr>
+    <attr name="neMIMversion">vG.1.42</attr>
+    <attr name="worldTimeZoneId">Eire</attr>
+    <attr name="daylightSavingsAdjust">60</attr>
+    <attr name="statusAnr"/>
+    <attr name="statusPci"/>
+    <attr name="mfbiSupport">false</attr>
+    <attr name="rrcConnReestActive">true</attr>
+    <attr name="timestampOfChange">2015-08-05 12:05:35.178</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,BW=x2List" mimName="ERBS_NODE_MODEL" lastModified="1438776335178">
+    <attr name="x2List">
+      <seq count="2">
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="eNBId">0</attr>
+            <attr name="BW">0</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="eNBId">0</attr>
+            <attr name="BW">1</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:05:35.178</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=10" mimName="ERBS_NODE_MODEL" lastModified="1438776868037">
+    <attr name="EUtranCellFDDId">10</attr>
+    <attr name="cellId">10</attr>
+    <attr name="earfcndl">2093</attr>
+    <attr name="earfcnul">20093</attr>
+    <attr name="sectorCarrierRef">
+      <seq count="1">
+        <item>SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,SectorCarrier=10</item>
+      </seq>
+    </attr>
+    <attr name="tac">2048</attr>
+    <attr name="lastModification">1</attr>
+    <attr name="physicalLayerSubCellId">1</attr>
+    <attr name="physicalLayerCellIdGroup">20</attr>
+    <attr name="activePlmnList">
+      <seq count="1">
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">80</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="additionalPlmnList">
+      <seq count="5">
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="userLabel"/>
+    <attr name="timestampOfChange">2015-08-05 12:14:28.037</attr>
+    <attr name="hostingDigitalUnit"/>
+    <attr name="noOfPucchCqiUsers">160</attr>
+    <attr name="noOfPucchSrUsers">160</attr>
+    <attr name="cellRange">15</attr>
+    <attr name="ulChannelBandwidth">10000</attr>
+    <attr name="pdcchCfiMode">0</attr>
+    <attr name="latitude">0</attr>
+    <attr name="longitude">0</attr>
+    <attr name="freqBand">4</attr>
+    <attr name="additionalFreqBandList">
+      <seq count="1">
+        <item>10</item>
+      </seq>
+    </attr>
+    <attr name="serviceAreaId">
+      <seq count="0"/>
+    </attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=10,EUtranFreqRelation=2093" mimName="ERBS_NODE_MODEL" lastModified="1438776874279">
+    <attr name="eUtranFrequencyRef">SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=2093</attr>
+    <attr name="createdBy">1</attr>
+    <attr name="candNeighborRel"/>
+    <attr name="lastModification">0</attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:34.279</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=2093" mimName="ERBS_NODE_MODEL" lastModified="1438776868016">
+    <attr name="arfcnValueEUtranDl">2093</attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:28.016</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=26280-200828" mimName="ERBS_NODE_MODEL" lastModified="1438776868020">
+    <attr name="eNBId">200828</attr>
+    <attr name="eNodeBPlmnId">
+      <struct>
+        <attr name="mcc">262</attr>
+        <attr name="mnc">80</attr>
+        <attr name="mncLength">2</attr>
+      </struct>
+    </attr>
+    <attr name="lastModification">1</attr>
+    <attr name="createdBy">5</attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:28.020</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=26280-200828,TermPointToENB=26280-200828" mimName="ERBS_NODE_MODEL" lastModified="1438776868024">
+    <attr name="TermPointToENBId">26280-200828</attr>
+    <attr name="lastModification">1</attr>
+    <attr name="createdBy">5</attr>
+    <attr name="administrativeState">1</attr>
+    <attr name="sourceFDN">SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1</attr>
+    <attr name="targetFDN">
+      <struct>
+        <attr name="eNBId">200828</attr>
+        <attr name="eNodeBPlmnId">
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">80</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </attr>
+      </struct>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:28.024</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=26280-200828,ExternalEUtranCellFDD=26280-200828-2" mimName="ERBS_NODE_MODEL" lastModified="1438776866419">
+    <attr name="localCellId">2</attr>
+    <attr name="physicalLayerSubCellId">1</attr>
+    <attr name="physicalLayerCellIdGroup">28</attr>
+    <attr name="tac">4316</attr>
+    <attr name="dlchannelBandwidth">10000</attr>
+    <attr name="ulchannelBandwidth">10000</attr>
+    <attr name="createdBy">5</attr>
+    <attr name="lastModification">1</attr>
+    <attr name="activePlmnList">
+      <seq count="1">
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">80</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.419</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=26280-200828,ExternalEUtranCellFDD=26280-200828-1" mimName="ERBS_NODE_MODEL" lastModified="1438776866429">
+    <attr name="localCellId">1</attr>
+    <attr name="physicalLayerSubCellId">0</attr>
+    <attr name="physicalLayerCellIdGroup">28</attr>
+    <attr name="tac">4316</attr>
+    <attr name="dlchannelBandwidth">10000</attr>
+    <attr name="ulchannelBandwidth">10000</attr>
+    <attr name="createdBy">5</attr>
+    <attr name="lastModification">1</attr>
+    <attr name="activePlmnList">
+      <seq count="1">
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">80</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.429</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1" mimName="ERBS_NODE_MODEL" lastModified="1438776868016">
+    <attr name="arfcnValueEUtranDl">5230</attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:28.016</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,TermPointToMme=MME_010064193095" mimName="ERBS_NODE_MODEL" lastModified="1438776866395">
+    <attr name="mmeGIListLTERelated">
+      <seq count="1">
+        <item>32768</item>
+      </seq>
+    </attr>
+    <attr name="mmeCodeListLTERelated">
+      <seq count="1">
+        <item>16</item>
+      </seq>
+    </attr>
+    <attr name="mmeCodeListOtherRATs">
+      <seq count="0"/>
+    </attr>
+    <attr name="servedPlmnListOtherRATs"/>
+    <attr name="servedPlmnListLTERelated">
+      <seq count="3">
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">80</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">84</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">86</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.395</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1" mimName="ERBS_NODE_MODEL" lastModified="1438776868054">
+    <attr name="EUtranCellFDDId">1</attr>
+    <attr name="cellId">1</attr>
+    <attr name="earfcndl">5230</attr>
+    <attr name="earfcnul">23230</attr>
+    <attr name="sectorCarrierRef">
+      <seq count="1">
+        <item>SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,SectorCarrier=1</item>
+      </seq>
+    </attr>
+    <attr name="tac">4316</attr>
+    <attr name="lastModification">1</attr>
+    <attr name="physicalLayerSubCellId">0</attr>
+    <attr name="physicalLayerCellIdGroup">85</attr>
+    <attr name="activePlmnList">
+      <seq count="1">
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">80</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="additionalPlmnList">
+      <seq count="5">
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">1</attr>
+            <attr name="mnc">1</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="userLabel"/>
+    <attr name="timestampOfChange">2015-08-05 12:14:28.054</attr>
+    <attr name="hostingDigitalUnit">SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1</attr>
+    <attr name="noOfPucchCqiUsers">80</attr>
+    <attr name="noOfPucchSrUsers">80</attr>
+    <attr name="cellRange">15</attr>
+    <attr name="ulChannelBandwidth">10000</attr>
+    <attr name="pdcchCfiMode">0</attr>
+    <attr name="latitude">0</attr>
+    <attr name="longitude">0</attr>
+    <attr name="freqBand">13</attr>
+    <attr name="additionalFreqBandList">
+      <seq count="0"/>
+    </attr>
+    <attr name="serviceAreaId">
+      <seq count="0"/>
+    </attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1,EUtranFreqRelation=1" mimName="ERBS_NODE_MODEL" lastModified="1438776874307">
+    <attr name="eUtranFrequencyRef">SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=1</attr>
+    <attr name="createdBy">1</attr>
+    <attr name="candNeighborRel"/>
+    <attr name="lastModification">1</attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:34.307</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,TermPointToMme=MME_010064193079" mimName="ERBS_NODE_MODEL" lastModified="1438776866397">
+    <attr name="mmeGIListLTERelated">
+      <seq count="1">
+        <item>32770</item>
+      </seq>
+    </attr>
+    <attr name="mmeCodeListLTERelated">
+      <seq count="1">
+        <item>8</item>
+      </seq>
+    </attr>
+    <attr name="mmeCodeListOtherRATs">
+      <seq count="0"/>
+    </attr>
+    <attr name="servedPlmnListOtherRATs"/>
+    <attr name="servedPlmnListLTERelated">
+      <seq count="2">
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">80</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+        <item>
+          <struct>
+            <attr name="mcc">262</attr>
+            <attr name="mnc">81</attr>
+            <attr name="mncLength">2</attr>
+          </struct>
+        </item>
+      </seq>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.397</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,SectorCarrier=1" mimName="ERBS_NODE_MODEL" lastModified="1438776866455">
+    <attr name="SectorCarrierId">1</attr>
+    <attr name="reservedBy">
+      <seq count="1">
+        <item>SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1</item>
+      </seq>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.455</attr>
+    <attr name="noOfRxAntennas">0</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,SectorCarrier=10" mimName="ERBS_NODE_MODEL" lastModified="1438776866454">
+    <attr name="SectorCarrierId">10</attr>
+    <attr name="reservedBy">
+      <seq count="1">
+        <item>SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=10</item>
+      </seq>
+    </attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.454</attr>
+    <attr name="noOfRxAntennas">0</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,AnrFunction=1,AnrFunctionEUtran=1" mimName="ERBS_NODE_MODEL" lastModified="1438776868017">
+    <attr name="anrInterFreqState">0</attr>
+    <attr name="anrIntraFreqState">0</attr>
+    <attr name="hoAllowedEutranPolicy">true</attr>
+    <attr name="x2SetupPolicy">true</attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:28.017</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,AnrFunction=1,AnrFunctionGeran=1" mimName="ERBS_NODE_MODEL" lastModified="1438776334195">
+    <attr name="anrStateGsm">0</attr>
+    <attr name="anrGeranRacMeasOn">true</attr>
+    <attr name="rimIntegrationEnabled">true</attr>
+    <attr name="timestampOfChange">2015-08-05 12:05:34.195</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ENodeBFunction=1,AnrFunction=1,AnrFunctionUtran=1" mimName="ERBS_NODE_MODEL" lastModified="1438776334196">
+    <attr name="anrStateUtran">0</attr>
+    <attr name="anrUtranAcMeasOn">true</attr>
+    <attr name="hoAllowedUtranPolicy">true</attr>
+    <attr name="rimIntegrationEnabled">true</attr>
+    <attr name="timestampOfChange">2015-08-05 12:05:34.196</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,GigaBitEthernet=1" mimName="ERBS_NODE_MODEL" lastModified="1438776866392">
+    <attr name="portNo">2</attr>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.392</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,GeneralProcessorUnit=1,ProcessorLoad=1" mimName="ERBS_NODE_MODEL" lastModified="1438776334481">
+    <attr name="ProcessorLoadId">1</attr>
+    <attr name="timestampOfChange">2015-08-05 12:05:34.481</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,IpOam=1,Ip=1" mimName="ERBS_NODE_MODEL" lastModified="1438776866416">
+    <attr name="nodeIpAddress">10.75.0.185</attr>
+    <attr name="nodeIpv6Address"/>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.416</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOTMO_R,SubNetwork=ENIQ,MeContext=lienb0685,ManagedElement=1,ManagedElementData=1" mimName="ERBS_NODE_MODEL" lastModified="1438776866382">
+    <attr name="nodeLocalTimeZone"/>
+    <attr name="timestampOfChange">2015-08-05 12:14:26.382</attr>
+  </mo>
+</model>

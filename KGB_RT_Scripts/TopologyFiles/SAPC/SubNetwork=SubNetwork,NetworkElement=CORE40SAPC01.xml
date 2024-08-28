@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=SubNetwork,NetworkElement=CORE40SAPC01" mimName="ONRM" lastModified="1533127510282">
+	<attr name="timestampOfChange">2018-08-01 13:45:10.282</attr>
+	<attr name="sourceType">TSP</attr>
+	<attr name="managedElementType">cSAPC-TSP</attr>
+	<attr name="nodeVersion">15BF-D4</attr>
+	<attr name="userLabel">CORE40SAPC01</attr>
+	</mo>
+</model>

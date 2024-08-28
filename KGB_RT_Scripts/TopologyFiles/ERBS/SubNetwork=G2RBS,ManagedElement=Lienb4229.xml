@@ -1,0 +1,753 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229" mimName="ECIM_Top" lastModified="1531477449058">
+	<attr name="timestampOfChange">2018-07-13 11:24:09.058</attr>
+	<attr name="ceLadderKeyID">CXC4021010</attr>
+	<attr name="fingerprint">G2_CI_MSR</attr>
+	<attr name="neMIMversion">18.Q3-R45A04</attr>
+	<attr name="utcOffset">+00:00</attr>
+	<attr name="managedElementType">RadioNode</attr>
+	<attr name="nodeVersion">18.Q3</attr>
+	<attr name="userLabel">Lienb4229</attr>
+	<attr name="swVersion">CXP9024418/6_R44A165</attr>
+	<attr name="release">18.Q3</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1" mimName="ECIM_Top" lastModified="1531477449025">
+	<attr name="timestampOfChange">2018-07-13 11:24:09.025</attr>
+	<attr name="neMIMversion">18.Q3-R45A04</attr>
+	<attr name="rrcConnReestActive">false</attr>
+	<attr name="eNodeBPlmnId">
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+</attr>
+	<attr name="mfbiSupport">false</attr>
+	<attr name="licCapDistrMethod">0</attr>
+	<attr name="eNBId">204229</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,AnrFunction=1,AnrFunctionEUtran=1" mimName="ECIM_Top" lastModified="1529402221535">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.535</attr>
+	<attr name="anrIntraFreqState">1</attr>
+	<attr name="anrInterFreqState">0</attr>
+	<attr name="hoAllowedEutranPolicy">true</attr>
+	<attr name="x2SetupPolicy">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,AnrFunction=1,AnrFunctionGeran=1" mimName="ECIM_Top" lastModified="1529402221536">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.536</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	<attr name="anrGeranRacMeasOn">true</attr>
+	<attr name="anrStateGsm">0</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,AnrFunction=1,AnrFunctionUtran=1" mimName="ECIM_Top" lastModified="1529402221537">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.537</attr>
+	<attr name="anrStateUtran">0</attr>
+	<attr name="anrUtranAcMeasOn">true</attr>
+	<attr name="hoAllowedUtranPolicy">true</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=2175" mimName="ECIM_Top" lastModified="1529402221584">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.584</attr>
+	<attr name="arfcnValueEUtranDl">2175</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=3625" mimName="ECIM_Top" lastModified="1529402221586">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.586</attr>
+	<attr name="arfcnValueEUtranDl">3625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellFDD=1" mimName="ECIM_Top" lastModified="1531477449024">
+	<attr name="timestampOfChange">2018-07-13 11:24:09.024</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	</struct>
+</attr>
+	<attr name="altitude">0</attr>
+	<attr name="eUtranCellFDDId">1</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="tac">100</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="ulChannelBandwidth">20000</attr>
+	<attr name="earfcnul">20175</attr>
+	<attr name="cellId">1</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2RBS,ManagedElement=Lienb4229,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">4</attr>
+	<attr name="physicalLayerSubCellId">0</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,SectorCarrier=1</item>
+	</seq>
+</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	</struct>
+</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="physicalLayerCellIdGroup">29</attr>
+	<attr name="additionalFreqBandList">
+	<seq count="2">
+	<item>10</item>
+	<item>66</item>
+	</seq>
+</attr>
+	<attr name="latitude">0</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="earfcndl">2175</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellFDD=1,EUtranFreqRelation=1" mimName="ECIM_Top" lastModified="1531477370305">
+	<attr name="timestampOfChange">2018-07-13 11:22:50.305</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="eutranFrequencyRef">SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=2175</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellFDD=2" mimName="ECIM_Top" lastModified="1531477848572">
+	<attr name="timestampOfChange">2018-07-13 11:30:48.572</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	</struct>
+</attr>
+	<attr name="altitude">0</attr>
+	<attr name="eUtranCellFDDId">2</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="tac">100</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="ulChannelBandwidth">20000</attr>
+	<attr name="earfcnul">21625</attr>
+	<attr name="cellId">2</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2RBS,ManagedElement=Lienb4229,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">8</attr>
+	<attr name="physicalLayerSubCellId">1</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,SectorCarrier=2</item>
+	</seq>
+</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	</struct>
+</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="physicalLayerCellIdGroup">29</attr>
+	<attr name="latitude">0</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="earfcndl">3625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellFDD=2,EUtranFreqRelation=2" mimName="ECIM_Top" lastModified="1531477370305">
+	<attr name="timestampOfChange">2018-07-13 11:22:50.305</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="eutranFrequencyRef">SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=3625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellTDD=Lienb4229-5" mimName="ECIM_Top" lastModified="1531477449024">
+	<attr name="timestampOfChange">2018-07-13 11:24:09.024</attr>
+	<attr name="physicalLayerSubCellId">2</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="noOfPucchCqiUsers">16</attr>
+	<attr name="altitude">0</attr>
+	<attr name="noOfPucchSrUsers">16</attr>
+	<attr name="tac">1</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="eUtranCellTDDId">Lienb4229-5</attr>
+	<attr name="cellId">5</attr>
+	<attr name="physicalLayerCellIdGroup">70</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="longitude">0</attr>
+	<attr name="earfcn">111000</attr>
+	<attr name="latitude">0</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="freqBand">0</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,NbIotCell=14" mimName="ECIM_Top" lastModified="1531477449025">
+	<attr name="timestampOfChange">2018-07-13 11:24:09.025</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoNbSIB3">MAPPED_SI_1</attr>
+	<attr name="mappingInfoNbSIB16">NOT_MAPPED</attr>
+	<attr name="mappingInfoNbSIB14">NOT_MAPPED</attr>
+	<attr name="mappingInfoNbSIB4">NOT_MAPPED</attr>
+	<attr name="mappingInfoNbSIB5">NOT_MAPPED</attr>
+	</struct>
+</attr>
+	<attr name="earfcnul">-1</attr>
+	<attr name="cellId">14</attr>
+	<attr name="nbIotCellId">14</attr>
+	<attr name="nbIotCellType">NBIOT_INBAND</attr>
+	<attr name="plmnIdList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="eutranCellRef">SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellFDD=2</attr>
+	<attr name="tac">2</attr>
+	<attr name="earfcndl">2175</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,Paging=1" mimName="ECIM_Top" lastModified="1531477449025">
+	<attr name="timestampOfChange">2018-07-13 11:24:09.025</attr>
+	<attr name="nB">2</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,SectorCarrier=1" mimName="ECIM_Top" lastModified="1531477370306">
+	<attr name="timestampOfChange">2018-07-13 11:22:50.306</attr>
+	<attr name="sectorCarrierId">1</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellFDD=1</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,SectorCarrier=2" mimName="ECIM_Top" lastModified="1531477845558">
+	<attr name="timestampOfChange">2018-07-13 11:30:45.558</attr>
+	<attr name="sectorCarrierId">2</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,EUtranCellFDD=2</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">2</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,SectorCarrier=3" mimName="ECIM_Top" lastModified="1531477370306">
+	<attr name="timestampOfChange">2018-07-13 11:22:50.306</attr>
+	<attr name="sectorCarrierId">3</attr>
+	<attr name="noOfRxAntennas">0</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,ENodeBFunction=1,TermPointToMme=MME_010037000049" mimName="ECIM_Top" lastModified="1529402222005">
+	<attr name="timestampOfChange">2018-06-19 10:57:02.005</attr>
+	<attr name="mmeCodeListLTERelated">
+	<seq count="1">
+	<item>100</item>
+	</seq>
+</attr>
+	<attr name="servedPlmnListLTERelated">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mcc">440</attr>
+	<attr name="mnc">50</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">38</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">234</attr>
+	<attr name="mnc">58</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">235</attr>
+	<attr name="mnc">91</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="mmeGIListLTERelated">
+	<seq count="1">
+	<item>32768</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Equipment=1,FieldReplaceableUnit=1" mimName="ECIM_Top" lastModified="1529513458150">
+	<attr name="timestampOfChange">2018-06-20 17:50:58.150</attr>
+	<attr name="productData">
+	<struct>
+	<attr name="productNumber">KDU137925/31</attr>
+	<attr name="productRevision">R2A</attr>
+	<attr name="serialNumber">D16T805004</attr>
+	<attr name="productionDate">20160705</attr>
+	<attr name="productName">Baseband 5216</attr>
+	</struct>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Equipment=1,FieldReplaceableUnit=1,BbProcessingResource=1" mimName="ECIM_Top" lastModified="1529402223455">
+	<attr name="timestampOfChange">2018-06-19 10:57:03.455</attr>
+	<attr name="licCapDistr">100</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Equipment=1,FieldReplaceableUnit=RRU2" mimName="ECIM_Top" lastModified="1529402223477">
+	<attr name="timestampOfChange">2018-06-19 10:57:03.477</attr>
+	<attr name="productData">
+	<struct>
+	<attr name="productNumber">KRC 161 262/1</attr>
+	<attr name="productRevision">R1C</attr>
+	<attr name="serialNumber">C825566622</attr>
+	<attr name="productionDate">20111221</attr>
+	<attr name="productName">RRUS 12 B8</attr>
+	</struct>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Equipment=1,FieldReplaceableUnit=RU1" mimName="ECIM_Top" lastModified="1529402223486">
+	<attr name="timestampOfChange">2018-06-19 10:57:03.486</attr>
+	<attr name="productData">
+	<struct>
+	<attr name="productNumber">KRC 118 59/1</attr>
+	<attr name="productRevision">R2B</attr>
+	<attr name="serialNumber">C823379075</attr>
+	<attr name="productionDate">20100217</attr>
+	<attr name="productName">RUS</attr>
+	</struct>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010071/4003_2" mimName="ECIM_Top" lastModified="1529402202620">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.620</attr>
+	<attr name="keyId">CXC4010071/4003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010071/4004_2" mimName="ECIM_Top" lastModified="1529402202621">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.621</attr>
+	<attr name="keyId">CXC4010071/4004</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010324_2" mimName="ECIM_Top" lastModified="1529402202622">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.622</attr>
+	<attr name="keyId">CXC4010324</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010608_2" mimName="ECIM_Top" lastModified="1529402202623">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.623</attr>
+	<attr name="keyId">CXC4010608</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010623_2" mimName="ECIM_Top" lastModified="1529402202624">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.624</attr>
+	<attr name="keyId">CXC4010623</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010624_2" mimName="ECIM_Top" lastModified="1529402202625">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.625</attr>
+	<attr name="keyId">CXC4010624</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010625_2" mimName="ECIM_Top" lastModified="1529402202626">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.626</attr>
+	<attr name="keyId">CXC4010625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010626_2" mimName="ECIM_Top" lastModified="1529402202627">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.627</attr>
+	<attr name="keyId">CXC4010626</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010627_2" mimName="ECIM_Top" lastModified="1529402202629">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.629</attr>
+	<attr name="keyId">CXC4010627</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010718_2" mimName="ECIM_Top" lastModified="1529402202630">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.630</attr>
+	<attr name="keyId">CXC4010718</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010719_2" mimName="ECIM_Top" lastModified="1529402202631">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.631</attr>
+	<attr name="keyId">CXC4010719</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010720_2" mimName="ECIM_Top" lastModified="1529402202632">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.632</attr>
+	<attr name="keyId">CXC4010720</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4010864_2" mimName="ECIM_Top" lastModified="1529402202633">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.633</attr>
+	<attr name="keyId">CXC4010864</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011039_2" mimName="ECIM_Top" lastModified="1529402202634">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.634</attr>
+	<attr name="keyId">CXC4011039</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011040_2" mimName="ECIM_Top" lastModified="1529402202636">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.636</attr>
+	<attr name="keyId">CXC4011040</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011161_2" mimName="ECIM_Top" lastModified="1529402202637">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.637</attr>
+	<attr name="keyId">CXC4011161</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011162_2" mimName="ECIM_Top" lastModified="1529402202638">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.638</attr>
+	<attr name="keyId">CXC4011162</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011182_2" mimName="ECIM_Top" lastModified="1529402202639">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.639</attr>
+	<attr name="keyId">CXC4011182</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011483_2" mimName="ECIM_Top" lastModified="1529402202641">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.641</attr>
+	<attr name="keyId">CXC4011483</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011484_2" mimName="ECIM_Top" lastModified="1529402202642">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.642</attr>
+	<attr name="keyId">CXC4011484</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011620_2" mimName="ECIM_Top" lastModified="1529402202643">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.643</attr>
+	<attr name="keyId">CXC4011620</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011621_2" mimName="ECIM_Top" lastModified="1529402202644">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.644</attr>
+	<attr name="keyId">CXC4011621</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011622_2" mimName="ECIM_Top" lastModified="1529402202645">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.645</attr>
+	<attr name="keyId">CXC4011622</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011961_2" mimName="ECIM_Top" lastModified="1529402202646">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.646</attr>
+	<attr name="keyId">CXC4011961</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4011962_2" mimName="ECIM_Top" lastModified="1529402202647">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.647</attr>
+	<attr name="keyId">CXC4011962</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012021_2" mimName="ECIM_Top" lastModified="1529402202649">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.649</attr>
+	<attr name="keyId">CXC4012021</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012037_2" mimName="ECIM_Top" lastModified="1529402202650">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.650</attr>
+	<attr name="keyId">CXC4012037</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012088_2" mimName="ECIM_Top" lastModified="1529402202651">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.651</attr>
+	<attr name="keyId">CXC4012088</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012134_2" mimName="ECIM_Top" lastModified="1529402202652">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.652</attr>
+	<attr name="keyId">CXC4012134</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012135_2" mimName="ECIM_Top" lastModified="1529402202653">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.653</attr>
+	<attr name="keyId">CXC4012135</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012136_2" mimName="ECIM_Top" lastModified="1529402202654">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.654</attr>
+	<attr name="keyId">CXC4012136</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012137_2" mimName="ECIM_Top" lastModified="1529402202656">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.656</attr>
+	<attr name="keyId">CXC4012137</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012158_2" mimName="ECIM_Top" lastModified="1529402202657">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.657</attr>
+	<attr name="keyId">CXC4012158</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012159_2" mimName="ECIM_Top" lastModified="1529402202658">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.658</attr>
+	<attr name="keyId">CXC4012159</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012160_2" mimName="ECIM_Top" lastModified="1529402202659">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.659</attr>
+	<attr name="keyId">CXC4012160</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4012161_1" mimName="ECIM_Top" lastModified="1529402202660">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.660</attr>
+	<attr name="keyId">CXC4012161</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4013000_2" mimName="ECIM_Top" lastModified="1529402202661">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.661</attr>
+	<attr name="keyId">CXC4013000</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020009_2" mimName="ECIM_Top" lastModified="1529402202663">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.663</attr>
+	<attr name="keyId">CXC4020009</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020017_2" mimName="ECIM_Top" lastModified="1529402202664">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.664</attr>
+	<attr name="keyId">CXC4020017</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020046_2" mimName="ECIM_Top" lastModified="1529402202665">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.665</attr>
+	<attr name="keyId">CXC4020046</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020047_2" mimName="ECIM_Top" lastModified="1529402202666">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.666</attr>
+	<attr name="keyId">CXC4020047</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020048_2" mimName="ECIM_Top" lastModified="1529402202667">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.667</attr>
+	<attr name="keyId">CXC4020048</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020049_2" mimName="ECIM_Top" lastModified="1529402202669">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.669</attr>
+	<attr name="keyId">CXC4020049</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020050_2" mimName="ECIM_Top" lastModified="1529402202670">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.670</attr>
+	<attr name="keyId">CXC4020050</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4020106_2" mimName="ECIM_Top" lastModified="1529402202671">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.671</attr>
+	<attr name="keyId">CXC4020106</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4021001_2" mimName="ECIM_Top" lastModified="1529402202672">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.672</attr>
+	<attr name="keyId">CXC4021001</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4021002_2" mimName="ECIM_Top" lastModified="1529402202673">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.673</attr>
+	<attr name="keyId">CXC4021002</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4021003_2" mimName="ECIM_Top" lastModified="1529402202675">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.675</attr>
+	<attr name="keyId">CXC4021003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4021004_2" mimName="ECIM_Top" lastModified="1529402202676">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.676</attr>
+	<attr name="keyId">CXC4021004</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4021007_2" mimName="ECIM_Top" lastModified="1529402202677">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.677</attr>
+	<attr name="keyId">CXC4021007</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,Lm=1,CapacityKey=CXC4021010_2" mimName="ECIM_Top" lastModified="1529402202678">
+	<attr name="timestampOfChange">2018-06-19 10:56:42.678</attr>
+	<attr name="keyId">CXC4021010</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,SysM=1,OamAccessPoint=1" mimName="ECIM_Top" lastModified="1529402217219">
+	<attr name="timestampOfChange">2018-06-19 10:56:57.219</attr>
+	<attr name="accessPoint">SubNetwork=G2RBS,ManagedElement=Lienb4229,Transport=1,Router=OaM,InterfaceIPv4=OaM,AddressIPv4=1</attr>
+	<attr name="oamAccessPointId">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,SystemFunctions=1,SysM=1,OamAccessPoint=Alternative" mimName="ECIM_Top" lastModified="1529402217220">
+	<attr name="timestampOfChange">2018-06-19 10:56:57.220</attr>
+	<attr name="oamAccessPointId">Alternative</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Transport=1,Router=OaM,InterfaceIPv4=OaM" mimName="ECIM_Top" lastModified="1529402221029">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.029</attr>
+	<attr name="interfaceIPv4Id">OaM</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Transport=1,Router=OaM,InterfaceIPv4=OaM,AddressIPv4=1" mimName="ECIM_Top" lastModified="1529402221035">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.035</attr>
+	<attr name="address">10.64.208.3/24</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Transport=1,Router=S1,InterfaceIPv4=S1" mimName="ECIM_Top" lastModified="1529402221044">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.044</attr>
+	<attr name="interfaceIPv4Id">S1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2RBS,ManagedElement=Lienb4229,Transport=1,Router=S1,InterfaceIPv4=S1,AddressIPv4=1" mimName="ECIM_Top" lastModified="1529402221044">
+	<attr name="timestampOfChange">2018-06-19 10:57:01.044</attr>
+	<attr name="address">10.64.209.2/24</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+</model>

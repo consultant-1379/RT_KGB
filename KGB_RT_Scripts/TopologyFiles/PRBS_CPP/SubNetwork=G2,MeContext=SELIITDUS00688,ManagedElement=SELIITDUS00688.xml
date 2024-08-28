@@ -1,0 +1,1244 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688" mimName="ECIM_Top" lastModified="1539070106593">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.593</attr>
+	<attr name="userLabel">SELIITDUS00688</attr>
+	<attr name="utcOffset">+00:00</attr>
+	<attr name="swVersion">CXP9024418/6_R50A10</attr>
+	<attr name="managedElementType">RadioNode</attr>
+	<attr name="neMIMversion">18.Q3-R49A16</attr>
+	<attr name="fingerprint">SELIITDUS00688</attr>
+	<attr name="nodeVersion">18.Q4</attr>
+	<attr name="ceLadderKeyID">CXC4021010</attr>
+	<attr name="release">18.Q4</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1" mimName="ECIM_Top" lastModified="1539070106097">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.097</attr>
+	<attr name="neMIMversion">18.Q3-R49A16</attr>
+	<attr name="eNodeBPlmnId">
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+</attr>
+	<attr name="mfbiSupport">false</attr>
+	<attr name="rrcConnReestActive">false</attr>
+	<attr name="licCapDistrMethod">0</attr>
+	<attr name="eNBId">210688</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,AnrFunction=1,AnrFunctionEUtran=1" mimName="ECIM_Top" lastModified="1539070106102">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.102</attr>
+	<attr name="hoAllowedEutranPolicy">true</attr>
+	<attr name="x2SetupPolicy">true</attr>
+	<attr name="anrIntraFreqState">1</attr>
+	<attr name="anrInterFreqState">0</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,AnrFunction=1,AnrFunctionGeran=1" mimName="ECIM_Top" lastModified="1539070106103">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.103</attr>
+	<attr name="anrStateGsm">0</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	<attr name="anrGeranRacMeasOn">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,AnrFunction=1,AnrFunctionUtran=1" mimName="ECIM_Top" lastModified="1539070106104">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.104</attr>
+	<attr name="hoAllowedUtranPolicy">true</attr>
+	<attr name="anrStateUtran">0</attr>
+	<attr name="anrUtranAcMeasOn">true</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=3625" mimName="ECIM_Top" lastModified="1539070106120">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.120</attr>
+	<attr name="arfcnValueEUtranDl">3625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=26280-200093" mimName="ECIM_Top" lastModified="1539070106121">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.121</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="eNodeBPlmnId">
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+</attr>
+	<attr name="createdBy">1</attr>
+	<attr name="eNBId">200093</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtraNetwork=1,ExternalENodeBFunction=26280-200093,TermPointToENB=26280-200093" mimName="ECIM_Top" lastModified="1539070106179">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.179</attr>
+	<attr name="targetFDN">
+	<struct>
+	<attr name="eNodeBPlmnId">
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+</attr>
+	</struct>
+</attr>
+	<attr name="sourceFDN">SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="termPointToENBId">26280-200093</attr>
+	<attr name="createdBy">1</attr>
+	<attr name="administrativeState">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=1" mimName="ECIM_Top" lastModified="1539070106181">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.181</attr>
+	<attr name="altitude">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	</struct>
+</attr>
+	<attr name="latitude">0</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	</struct>
+</attr>
+	<attr name="tac">666</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">8</attr>
+	<attr name="physicalLayerSubCellId">0</attr>
+	<attr name="earfcndl">3625</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="eUtranCellFDDId">1</attr>
+	<attr name="physicalLayerCellIdGroup">88</attr>
+	<attr name="ulChannelBandwidth">5000</attr>
+	<attr name="cellId">1</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="earfcnul">21625</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=1</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=1,EUtranFreqRelation=1" mimName="ECIM_Top" lastModified="1539070106186">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.186</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="eutranFrequencyRef">SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=3625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=2" mimName="ECIM_Top" lastModified="1539070106219">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.219</attr>
+	<attr name="altitude">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	</struct>
+</attr>
+	<attr name="latitude">0</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	</struct>
+</attr>
+	<attr name="tac">666</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">8</attr>
+	<attr name="physicalLayerSubCellId">1</attr>
+	<attr name="earfcndl">3625</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="eUtranCellFDDId">2</attr>
+	<attr name="physicalLayerCellIdGroup">88</attr>
+	<attr name="ulChannelBandwidth">5000</attr>
+	<attr name="cellId">2</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="earfcnul">21625</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=2</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=3" mimName="ECIM_Top" lastModified="1539070106253">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.253</attr>
+	<attr name="altitude">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	</struct>
+</attr>
+	<attr name="latitude">0</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	</struct>
+</attr>
+	<attr name="tac">666</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">8</attr>
+	<attr name="physicalLayerSubCellId">2</attr>
+	<attr name="earfcndl">3625</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="eUtranCellFDDId">3</attr>
+	<attr name="physicalLayerCellIdGroup">88</attr>
+	<attr name="ulChannelBandwidth">5000</attr>
+	<attr name="cellId">3</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="earfcnul">21625</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=3</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=4" mimName="ECIM_Top" lastModified="1539070106290">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.290</attr>
+	<attr name="altitude">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	</struct>
+</attr>
+	<attr name="latitude">0</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	</struct>
+</attr>
+	<attr name="tac">666</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">8</attr>
+	<attr name="physicalLayerSubCellId">0</attr>
+	<attr name="earfcndl">3625</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">1</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="eUtranCellFDDId">4</attr>
+	<attr name="physicalLayerCellIdGroup">89</attr>
+	<attr name="ulChannelBandwidth">5000</attr>
+	<attr name="cellId">4</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Equipment=1,FieldReplaceableUnit=1</attr>
+	<attr name="earfcnul">21625</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=4</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,Paging=1" mimName="ECIM_Top" lastModified="1539070106361">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.361</attr>
+	<attr name="nB">2</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=1" mimName="ECIM_Top" lastModified="1539070106463">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.463</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=1</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	<attr name="sectorCarrierId">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=2" mimName="ECIM_Top" lastModified="1539070106464">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.464</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=2</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	<attr name="sectorCarrierId">2</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=3" mimName="ECIM_Top" lastModified="1539070106465">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.465</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=3</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	<attr name="sectorCarrierId">3</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,SectorCarrier=4" mimName="ECIM_Top" lastModified="1539070106466">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.466</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,EUtranCellFDD=4</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	<attr name="sectorCarrierId">4</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,ENodeBFunction=1,TermPointToMme=1" mimName="ECIM_Top" lastModified="1539070106468">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.468</attr>
+	<attr name="mmeGIListLTERelated">
+	<seq count="1">
+	<item>65000</item>
+	</seq>
+</attr>
+	<attr name="mmeCodeListOtherRATs">
+	<seq count="4">
+	<item>48</item>
+	<item>49</item>
+	<item>50</item>
+	<item>51</item>
+	</seq>
+</attr>
+	<attr name="servedPlmnListLTERelated">
+	<seq count="4">
+	<item>
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">81</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">3</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">4</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="servedPlmnListOtherRATs">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mnc">80</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">81</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">2</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">3</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mnc">4</attr>
+	<attr name="mncLength">2</attr>
+	<attr name="mcc">262</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="mmeCodeListLTERelated">
+	<seq count="1">
+	<item>6</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Equipment=1,FieldReplaceableUnit=1" mimName="ECIM_Top" lastModified="1539070106484">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.484</attr>
+	<attr name="productData">
+	<struct>
+	<attr name="productionDate">20171115</attr>
+	<attr name="serialNumber">B440718033</attr>
+	<attr name="productNumber">KDU137848/11</attr>
+	<attr name="productName">Baseband 6630</attr>
+	<attr name="productRevision">R2B</attr>
+	</struct>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Equipment=1,FieldReplaceableUnit=1,BbProcessingResource=1" mimName="ECIM_Top" lastModified="1539070106485">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.485</attr>
+	<attr name="licCapDistr">100</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Equipment=1,FieldReplaceableUnit=2" mimName="ECIM_Top" lastModified="1539070106505">
+	<attr name="timestampOfChange">2018-10-09 08:28:26.505</attr>
+	<attr name="productData">
+	<struct>
+	<attr name="productionDate">20170816</attr>
+	<attr name="serialNumber">D16X039970</attr>
+	<attr name="productNumber">KRC 161 262/2</attr>
+	<attr name="productName">RRUS 12 B8</attr>
+	<attr name="productRevision">R2D</attr>
+	</struct>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010071/4002_2" mimName="ECIM_Top" lastModified="1539070103916">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.916</attr>
+	<attr name="keyId">CXC4010071/4002</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010071/4002_3" mimName="ECIM_Top" lastModified="1539070103917">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.917</attr>
+	<attr name="keyId">CXC4010071/4002</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010071/4003_1" mimName="ECIM_Top" lastModified="1539070103917">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.917</attr>
+	<attr name="keyId">CXC4010071/4003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010071/4003_2" mimName="ECIM_Top" lastModified="1539070103918">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.918</attr>
+	<attr name="keyId">CXC4010071/4003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010071/4003_3" mimName="ECIM_Top" lastModified="1539070103919">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.919</attr>
+	<attr name="keyId">CXC4010071/4003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010324_1" mimName="ECIM_Top" lastModified="1539070103920">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.920</attr>
+	<attr name="keyId">CXC4010324</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010608_1" mimName="ECIM_Top" lastModified="1539070103921">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.921</attr>
+	<attr name="keyId">CXC4010608</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010608_2" mimName="ECIM_Top" lastModified="1539070103921">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.921</attr>
+	<attr name="keyId">CXC4010608</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010608_3" mimName="ECIM_Top" lastModified="1539070103922">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.922</attr>
+	<attr name="keyId">CXC4010608</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010623_1" mimName="ECIM_Top" lastModified="1539070103923">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.923</attr>
+	<attr name="keyId">CXC4010623</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010623_2" mimName="ECIM_Top" lastModified="1539070103924">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.924</attr>
+	<attr name="keyId">CXC4010623</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010623_3" mimName="ECIM_Top" lastModified="1539070103925">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.925</attr>
+	<attr name="keyId">CXC4010623</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010624_1" mimName="ECIM_Top" lastModified="1539070103925">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.925</attr>
+	<attr name="keyId">CXC4010624</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010624_2" mimName="ECIM_Top" lastModified="1539070103926">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.926</attr>
+	<attr name="keyId">CXC4010624</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010624_3" mimName="ECIM_Top" lastModified="1539070103927">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.927</attr>
+	<attr name="keyId">CXC4010624</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010625_1" mimName="ECIM_Top" lastModified="1539070103928">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.928</attr>
+	<attr name="keyId">CXC4010625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010625_2" mimName="ECIM_Top" lastModified="1539070103929">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.929</attr>
+	<attr name="keyId">CXC4010625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010625_3" mimName="ECIM_Top" lastModified="1539070103930">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.930</attr>
+	<attr name="keyId">CXC4010625</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010626_1" mimName="ECIM_Top" lastModified="1539070103931">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.931</attr>
+	<attr name="keyId">CXC4010626</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010626_2" mimName="ECIM_Top" lastModified="1539070103931">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.931</attr>
+	<attr name="keyId">CXC4010626</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010626_3" mimName="ECIM_Top" lastModified="1539070103932">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.932</attr>
+	<attr name="keyId">CXC4010626</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010627_1" mimName="ECIM_Top" lastModified="1539070103933">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.933</attr>
+	<attr name="keyId">CXC4010627</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010627_2" mimName="ECIM_Top" lastModified="1539070103934">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.934</attr>
+	<attr name="keyId">CXC4010627</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010627_3" mimName="ECIM_Top" lastModified="1539070103934">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.934</attr>
+	<attr name="keyId">CXC4010627</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010718_1" mimName="ECIM_Top" lastModified="1539070103935">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.935</attr>
+	<attr name="keyId">CXC4010718</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010718_2" mimName="ECIM_Top" lastModified="1539070103936">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.936</attr>
+	<attr name="keyId">CXC4010718</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010718_3" mimName="ECIM_Top" lastModified="1539070103937">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.937</attr>
+	<attr name="keyId">CXC4010718</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010719_1" mimName="ECIM_Top" lastModified="1539070103938">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.938</attr>
+	<attr name="keyId">CXC4010719</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010719_2" mimName="ECIM_Top" lastModified="1539070103939">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.939</attr>
+	<attr name="keyId">CXC4010719</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010719_3" mimName="ECIM_Top" lastModified="1539070103939">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.939</attr>
+	<attr name="keyId">CXC4010719</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010720_1" mimName="ECIM_Top" lastModified="1539070103940">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.940</attr>
+	<attr name="keyId">CXC4010720</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010720_2" mimName="ECIM_Top" lastModified="1539070103941">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.941</attr>
+	<attr name="keyId">CXC4010720</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010720_3" mimName="ECIM_Top" lastModified="1539070103942">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.942</attr>
+	<attr name="keyId">CXC4010720</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010864_1" mimName="ECIM_Top" lastModified="1539070103943">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.943</attr>
+	<attr name="keyId">CXC4010864</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010864_2" mimName="ECIM_Top" lastModified="1539070103943">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.943</attr>
+	<attr name="keyId">CXC4010864</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4010864_3" mimName="ECIM_Top" lastModified="1539070103944">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.944</attr>
+	<attr name="keyId">CXC4010864</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011039_1" mimName="ECIM_Top" lastModified="1539070103945">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.945</attr>
+	<attr name="keyId">CXC4011039</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011039_2" mimName="ECIM_Top" lastModified="1539070103946">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.946</attr>
+	<attr name="keyId">CXC4011039</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011039_3" mimName="ECIM_Top" lastModified="1539070103947">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.947</attr>
+	<attr name="keyId">CXC4011039</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011040_1" mimName="ECIM_Top" lastModified="1539070103948">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.948</attr>
+	<attr name="keyId">CXC4011040</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011040_2" mimName="ECIM_Top" lastModified="1539070103948">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.948</attr>
+	<attr name="keyId">CXC4011040</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011040_3" mimName="ECIM_Top" lastModified="1539070103949">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.949</attr>
+	<attr name="keyId">CXC4011040</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011161_1" mimName="ECIM_Top" lastModified="1539070103950">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.950</attr>
+	<attr name="keyId">CXC4011161</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011161_2" mimName="ECIM_Top" lastModified="1539070103951">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.951</attr>
+	<attr name="keyId">CXC4011161</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011161_3" mimName="ECIM_Top" lastModified="1539070103952">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.952</attr>
+	<attr name="keyId">CXC4011161</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011162_1" mimName="ECIM_Top" lastModified="1539070103952">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.952</attr>
+	<attr name="keyId">CXC4011162</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011162_2" mimName="ECIM_Top" lastModified="1539070103953">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.953</attr>
+	<attr name="keyId">CXC4011162</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011162_3" mimName="ECIM_Top" lastModified="1539070103954">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.954</attr>
+	<attr name="keyId">CXC4011162</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011182_1" mimName="ECIM_Top" lastModified="1539070103955">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.955</attr>
+	<attr name="keyId">CXC4011182</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011182_2" mimName="ECIM_Top" lastModified="1539070103956">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.956</attr>
+	<attr name="keyId">CXC4011182</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011182_3" mimName="ECIM_Top" lastModified="1539070103956">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.956</attr>
+	<attr name="keyId">CXC4011182</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011483_1" mimName="ECIM_Top" lastModified="1539070103957">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.957</attr>
+	<attr name="keyId">CXC4011483</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011483_2" mimName="ECIM_Top" lastModified="1539070103958">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.958</attr>
+	<attr name="keyId">CXC4011483</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011483_3" mimName="ECIM_Top" lastModified="1539070103959">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.959</attr>
+	<attr name="keyId">CXC4011483</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011484_1" mimName="ECIM_Top" lastModified="1539070103960">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.960</attr>
+	<attr name="keyId">CXC4011484</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011484_2" mimName="ECIM_Top" lastModified="1539070103960">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.960</attr>
+	<attr name="keyId">CXC4011484</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011484_3" mimName="ECIM_Top" lastModified="1539070103961">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.961</attr>
+	<attr name="keyId">CXC4011484</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011620_1" mimName="ECIM_Top" lastModified="1539070103962">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.962</attr>
+	<attr name="keyId">CXC4011620</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011620_2" mimName="ECIM_Top" lastModified="1539070103963">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.963</attr>
+	<attr name="keyId">CXC4011620</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011620_3" mimName="ECIM_Top" lastModified="1539070103964">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.964</attr>
+	<attr name="keyId">CXC4011620</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011621_1" mimName="ECIM_Top" lastModified="1539070103964">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.964</attr>
+	<attr name="keyId">CXC4011621</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011621_2" mimName="ECIM_Top" lastModified="1539070103965">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.965</attr>
+	<attr name="keyId">CXC4011621</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011621_3" mimName="ECIM_Top" lastModified="1539070103966">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.966</attr>
+	<attr name="keyId">CXC4011621</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011622_1" mimName="ECIM_Top" lastModified="1539070103967">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.967</attr>
+	<attr name="keyId">CXC4011622</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011622_2" mimName="ECIM_Top" lastModified="1539070103968">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.968</attr>
+	<attr name="keyId">CXC4011622</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011622_3" mimName="ECIM_Top" lastModified="1539070103968">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.968</attr>
+	<attr name="keyId">CXC4011622</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011956_1" mimName="ECIM_Top" lastModified="1539070103969">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.969</attr>
+	<attr name="keyId">CXC4011956</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011956_2" mimName="ECIM_Top" lastModified="1539070103970">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.970</attr>
+	<attr name="keyId">CXC4011956</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011956_3" mimName="ECIM_Top" lastModified="1539070103971">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.971</attr>
+	<attr name="keyId">CXC4011956</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011957_1" mimName="ECIM_Top" lastModified="1539070103972">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.972</attr>
+	<attr name="keyId">CXC4011957</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011957_2" mimName="ECIM_Top" lastModified="1539070103972">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.972</attr>
+	<attr name="keyId">CXC4011957</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011957_3" mimName="ECIM_Top" lastModified="1539070103973">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.973</attr>
+	<attr name="keyId">CXC4011957</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011961_1" mimName="ECIM_Top" lastModified="1539070103974">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.974</attr>
+	<attr name="keyId">CXC4011961</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011961_2" mimName="ECIM_Top" lastModified="1539070103975">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.975</attr>
+	<attr name="keyId">CXC4011961</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011961_3" mimName="ECIM_Top" lastModified="1539070103976">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.976</attr>
+	<attr name="keyId">CXC4011961</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011962_1" mimName="ECIM_Top" lastModified="1539070103976">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.976</attr>
+	<attr name="keyId">CXC4011962</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011962_2" mimName="ECIM_Top" lastModified="1539070103977">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.977</attr>
+	<attr name="keyId">CXC4011962</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4011962_3" mimName="ECIM_Top" lastModified="1539070103978">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.978</attr>
+	<attr name="keyId">CXC4011962</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012021_1" mimName="ECIM_Top" lastModified="1539070103979">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.979</attr>
+	<attr name="keyId">CXC4012021</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012021_2" mimName="ECIM_Top" lastModified="1539070103980">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.980</attr>
+	<attr name="keyId">CXC4012021</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012021_3" mimName="ECIM_Top" lastModified="1539070103981">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.981</attr>
+	<attr name="keyId">CXC4012021</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012037_1" mimName="ECIM_Top" lastModified="1539070103981">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.981</attr>
+	<attr name="keyId">CXC4012037</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012037_2" mimName="ECIM_Top" lastModified="1539070103982">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.982</attr>
+	<attr name="keyId">CXC4012037</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012037_3" mimName="ECIM_Top" lastModified="1539070103983">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.983</attr>
+	<attr name="keyId">CXC4012037</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012084_1" mimName="ECIM_Top" lastModified="1539070103984">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.984</attr>
+	<attr name="keyId">CXC4012084</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012084_2" mimName="ECIM_Top" lastModified="1539070103985">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.985</attr>
+	<attr name="keyId">CXC4012084</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012084_3" mimName="ECIM_Top" lastModified="1539070103985">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.985</attr>
+	<attr name="keyId">CXC4012084</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012085_1" mimName="ECIM_Top" lastModified="1539070103986">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.986</attr>
+	<attr name="keyId">CXC4012085</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012085_2" mimName="ECIM_Top" lastModified="1539070103987">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.987</attr>
+	<attr name="keyId">CXC4012085</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012085_3" mimName="ECIM_Top" lastModified="1539070103988">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.988</attr>
+	<attr name="keyId">CXC4012085</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012086_1" mimName="ECIM_Top" lastModified="1539070103989">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.989</attr>
+	<attr name="keyId">CXC4012086</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012086_2" mimName="ECIM_Top" lastModified="1539070103989">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.989</attr>
+	<attr name="keyId">CXC4012086</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012086_3" mimName="ECIM_Top" lastModified="1539070103990">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.990</attr>
+	<attr name="keyId">CXC4012086</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012087_1" mimName="ECIM_Top" lastModified="1539070103991">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.991</attr>
+	<attr name="keyId">CXC4012087</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012087_2" mimName="ECIM_Top" lastModified="1539070103992">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.992</attr>
+	<attr name="keyId">CXC4012087</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012087_3" mimName="ECIM_Top" lastModified="1539070103993">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.993</attr>
+	<attr name="keyId">CXC4012087</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012088_1" mimName="ECIM_Top" lastModified="1539070103994">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.994</attr>
+	<attr name="keyId">CXC4012088</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012088_2" mimName="ECIM_Top" lastModified="1539070103994">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.994</attr>
+	<attr name="keyId">CXC4012088</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4012088_3" mimName="ECIM_Top" lastModified="1539070103995">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.995</attr>
+	<attr name="keyId">CXC4012088</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4013000_1" mimName="ECIM_Top" lastModified="1539070103996">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.996</attr>
+	<attr name="keyId">CXC4013000</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4013000_2" mimName="ECIM_Top" lastModified="1539070103997">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.997</attr>
+	<attr name="keyId">CXC4013000</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4013000_3" mimName="ECIM_Top" lastModified="1539070103998">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.998</attr>
+	<attr name="keyId">CXC4013000</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4020106_1" mimName="ECIM_Top" lastModified="1539070103999">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.999</attr>
+	<attr name="keyId">CXC4020106</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4020106_2" mimName="ECIM_Top" lastModified="1539070103999">
+	<attr name="timestampOfChange">2018-10-09 08:28:23.999</attr>
+	<attr name="keyId">CXC4020106</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4020106_3" mimName="ECIM_Top" lastModified="1539070104000">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.000</attr>
+	<attr name="keyId">CXC4020106</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021001_1" mimName="ECIM_Top" lastModified="1539070104001">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.001</attr>
+	<attr name="keyId">CXC4021001</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021001_2" mimName="ECIM_Top" lastModified="1539070104002">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.002</attr>
+	<attr name="keyId">CXC4021001</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021001_3" mimName="ECIM_Top" lastModified="1539070104003">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.003</attr>
+	<attr name="keyId">CXC4021001</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021002_1" mimName="ECIM_Top" lastModified="1539070104004">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.004</attr>
+	<attr name="keyId">CXC4021002</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021002_2" mimName="ECIM_Top" lastModified="1539070104005">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.005</attr>
+	<attr name="keyId">CXC4021002</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021002_3" mimName="ECIM_Top" lastModified="1539070104005">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.005</attr>
+	<attr name="keyId">CXC4021002</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021003_1" mimName="ECIM_Top" lastModified="1539070104006">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.006</attr>
+	<attr name="keyId">CXC4021003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021003_2" mimName="ECIM_Top" lastModified="1539070104007">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.007</attr>
+	<attr name="keyId">CXC4021003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021003_3" mimName="ECIM_Top" lastModified="1539070104008">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.008</attr>
+	<attr name="keyId">CXC4021003</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021007_1" mimName="ECIM_Top" lastModified="1539070104009">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.009</attr>
+	<attr name="keyId">CXC4021007</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021007_2" mimName="ECIM_Top" lastModified="1539070104010">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.010</attr>
+	<attr name="keyId">CXC4021007</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021007_3" mimName="ECIM_Top" lastModified="1539070104010">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.010</attr>
+	<attr name="keyId">CXC4021007</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021010_1" mimName="ECIM_Top" lastModified="1539070104011">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.011</attr>
+	<attr name="keyId">CXC4021010</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021010_2" mimName="ECIM_Top" lastModified="1539070104012">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.012</attr>
+	<attr name="keyId">CXC4021010</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,Lm=1,CapacityKey=CXC4021010_3" mimName="ECIM_Top" lastModified="1539070104013">
+	<attr name="timestampOfChange">2018-10-09 08:28:24.013</attr>
+	<attr name="keyId">CXC4021010</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,SysM=1,OamAccessPoint=1" mimName="ECIM_Top" lastModified="1539070105487">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.487</attr>
+	<attr name="oamAccessPointId">1</attr>
+	<attr name="accessPoint">SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=2,InterfaceIPv4=OaM,AddressIPv4=1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,SystemFunctions=1,SysM=1,OamAccessPoint=Alternative" mimName="ECIM_Top" lastModified="1539070105488">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.488</attr>
+	<attr name="oamAccessPointId">Alternative</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=1,InterfaceIPv4=1" mimName="ECIM_Top" lastModified="1539070105572">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.572</attr>
+	<attr name="interfaceIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=1,InterfaceIPv4=1,AddressIPv4=1" mimName="ECIM_Top" lastModified="1539070105573">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.573</attr>
+	<attr name="address">10.90.44.26/29</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=2,InterfaceIPv4=1" mimName="ECIM_Top" lastModified="1539070105576">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.576</attr>
+	<attr name="interfaceIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=2,InterfaceIPv4=1,AddressIPv4=1" mimName="ECIM_Top" lastModified="1539070105577">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.577</attr>
+	<attr name="address">10.90.44.18/29</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=2,InterfaceIPv4=OaM" mimName="ECIM_Top" lastModified="1539070105577">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.577</attr>
+	<attr name="interfaceIPv4Id">OaM</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=2,InterfaceIPv4=OaM,AddressIPv4=1" mimName="ECIM_Top" lastModified="1539070105578">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.578</attr>
+	<attr name="address">10.90.44.253/32</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=2,InterfaceIPv4=S1" mimName="ECIM_Top" lastModified="1539070105578">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.578</attr>
+	<attr name="interfaceIPv4Id">S1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=2,InterfaceIPv4=S1,AddressIPv4=1" mimName="ECIM_Top" lastModified="1539070105579">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.579</attr>
+	<attr name="address">10.90.44.252/32</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=3,InterfaceIPv4=1" mimName="ECIM_Top" lastModified="1539070105581">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.581</attr>
+	<attr name="interfaceIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=3,InterfaceIPv4=1,AddressIPv4=1" mimName="ECIM_Top" lastModified="1539070105582">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.582</attr>
+	<attr name="address">10.90.44.34/29</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=4,InterfaceIPv4=1" mimName="ECIM_Top" lastModified="1539070105584">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.584</attr>
+	<attr name="interfaceIPv4Id">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=G2,MeContext=SELIITDUS00688,ManagedElement=SELIITDUS00688,Transport=1,Router=4,InterfaceIPv4=1,AddressIPv4=1" mimName="ECIM_Top" lastModified="1539070105584">
+	<attr name="timestampOfChange">2018-10-09 08:28:25.584</attr>
+	<attr name="address">10.90.44.50/29</attr>
+	<attr name="addressIPv4Id">1</attr>
+	</mo>
+</model>

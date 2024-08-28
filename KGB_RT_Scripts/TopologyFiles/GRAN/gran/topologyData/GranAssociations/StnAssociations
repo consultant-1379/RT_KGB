@@ -1,0 +1,12 @@
+sourceType|sourceFDN|targetType|targetFDN
+STN|SubNetwork=ONRM_RootMo,SubNetwork=7500-S3,ManagedElement=STN-PICO-A001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=7500-S3,ManagedElement=STN-PICO-C001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-A001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-B001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-C001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-D001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-E001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-F001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-G001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-H001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01
+STN|SubNetwork=ONRM_RootMo,SubNetwork=1000-S3,ManagedElement=STN-SIU-I001|BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01

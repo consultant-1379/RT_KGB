@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd" >
+<!-- Generated on Mon Mar 23 14:01:00 IST 2020 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=AXE,ManagedElement=DBNB01; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=AXE,ManagedElement=DBNB01" mimName="ONRM" mimVersion="17.0.3" lastModified="1584952260207">
+ <attr name="sourceType">
+   <seq count="1">
+    <item>ISBladeHybrid</item>
+   </seq>
+ </attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=SiteDBNB01</attr>
+ <attr name="managedElementType">
+   <seq count="1">
+    <item>MSCServer</item>
+   </seq>
+ </attr>
+ <attr name="nodeVersion">TSS4.0 MP-S12</attr>
+ <attr name="userLabel">DBNB01</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

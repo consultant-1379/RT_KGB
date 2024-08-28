@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=SubNetwork,NetworkElement=MSCSRV054AP1" mimName="ComTop" lastModified="1538636274357">
+	<attr name="timestampOfChange">2018-10-04 07:57:54.357</attr>
+	<attr name="userLabel">MSCSRV054AP1</attr>
+	<attr name="managedElementType">MSCServer</attr>
+	<attr name="sourceType">ECIM</attr>
+	<attr name="nodeVersion">1.9</attr>
+	</mo>
+</model>

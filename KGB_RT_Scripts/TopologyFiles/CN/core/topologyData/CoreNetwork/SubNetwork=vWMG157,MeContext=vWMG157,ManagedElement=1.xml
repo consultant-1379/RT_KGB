@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=vWMG157,MeContext=vWMG157,ManagedElement=1" mimName="ComTop" lastModified="1518750885686">
+	<attr name="timestampOfChange">2018-02-16 03:14:45.686</attr>
+	<attr name="sourceType">EVR</attr>
+	<attr name="managedElementType">vWMG</attr>
+	<attr name="nodeVersion">vWMG-1.0</attr>
+	<attr name="userLabel">vWMG157</attr>
+	</mo>
+</model>

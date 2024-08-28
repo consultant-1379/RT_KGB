@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Mon Mar 08 06:45:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,MeContext=MSRBS-V201; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,MeContext=MSRBS-V201" mimName="ECIM_Top" mimVersion="E.2.9" lastModified="1615185900194">
+ <attr name="MeContextId">MSRBS-V201</attr>
+ <attr name="neMIMversion">vE.2.9</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSMSRBS-V201</attr>
+ <attr name="dnPrefix">SubNetwork=ONRM_ROOT_MO,MeContext=MSRBS-V201</attr>
+ <attr name="managedElementType">RadioNode</attr>
+ <attr name="nodeVersion">16B</attr>
+ <attr name="userLabel">MSRBS-V201</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,MeContext=MSRBS-V201,ManagedElement=MSRBS-V201,BtsFunction=1,GsmSector=SECTOR102" mimName="ECIM_Top" mimVersion="E.2.9" lastModified="1615185900194">
+ <attr name="bscTgIdentity">RXSTG-101</attr>
+ <attr name="bscNodeIdentity">BSC50</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,MeContext=MSRBS-V201,ManagedElement=MSRBS-V201,BtsFunction=1,GsmSector=SECTOR102" mimName="ECIM_Top" mimVersion="E.2.9" lastModified="1615185900194">
+ <attr name="bscTgIdentity">RXSTG-102</attr>
+ <attr name="bscNodeIdentity">BSC50</attr>
+ </mo>
+</model>

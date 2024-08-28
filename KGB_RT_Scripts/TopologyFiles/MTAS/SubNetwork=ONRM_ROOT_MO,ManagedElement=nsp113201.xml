@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd" >
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=nsp113201" mimName="ONRM" mimVersion="17.0.3" lastModified="1614088500393">
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=sweden </attr>
+ <attr name="managedElementType">
+  <seq count="1">
+<item>MTAS</item>
+  </seq>
+ </attr>
+ <attr name="nodeVersion">17B</attr>
+ <attr name="userLabel">nsp113201</attr>
+ <attr name="swVersion"></attr>
+ </mo>
+</model>

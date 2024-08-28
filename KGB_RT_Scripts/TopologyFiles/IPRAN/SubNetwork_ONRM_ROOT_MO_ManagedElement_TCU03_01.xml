@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Mar 04 14:45:08 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01; Scope 8 -->
+<model>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="sourceType">
+  		<seq count="1">
+    			<item>TCU</item>
+  		</seq>
+    </attr>
+	   <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=PDM</attr>
+    <attr name="managedElementType">
+  		<seq count="1">
+    			<item>TCU</item>
+  		</seq>
+    </attr>
+    <attr name="nodeVersion">14B</attr>
+    <attr name="userLabel">TCU03_01</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01,Shaper=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="committedInformationRate">200</attr>
+    <attr name="order">0</attr>
+    <attr name="shaperId">ManagedElement=1,Transport=1,EthernetPort=1,QueueSystem=1,Shaper=1</attr>
+    <attr name="userLabel">userLabel</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01,SchedulerDwrr=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="order">0</attr>
+    <attr name="schedulerDwrrId">ManagedElement=1,Transport=1,EthernetPort=1,QueueSystem=1,SchedulerDwrr=1</attr>
+    <attr name="schedulingWeight">20</attr>
+    <attr name="userLabel">userLabel</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01,QueueTailDrop=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="order">0</attr>
+    <attr name="queueSize">250</attr>
+    <attr name="queueTailDropId">ManagedElement=1,Transport=1,EthernetPort=1,QueueSystem=1,QueueTailDrop=1</attr>
+    <attr name="reservedBy">20</attr>
+    <attr name="userLabel">userLabel</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01,QueueRed=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="order">0</attr>
+    <attr name="queueSize">100</attr>
+    <attr name="queueRedId">ManagedElement=1,Transport=1,EthernetPort=1,QueueSystem=1,QueueRed=1</attr>
+    <attr name="reservedBy">20</attr>
+    <attr name="userLabel">userLabel</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01,OamAccessPoint=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="accessPoint">20</attr>
+    <attr name="ipv4address">172.16.54.190</attr>
+    <attr name="oamAccessPointId">ManagedElement=1,SystemFunctions=1,SysM=1,OamAccessPoint=1</attr>
+    <attr name="userLabel">userLabel</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01,InterfaceIPV4=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="interfaceIPv4Id">ManagedElement=1,Transport=1,Router=1,InterfaceIPv4=1</attr>
+    <attr name="userLabel">userLabel</attr>
+  </mo>
+  <mo fdn="SubNetwork=ONRM_ROOT_MO,ManagedElement=TCU03_01,InterfaceIPV6=1" mimName="ONRM" mimVersion="13.2.4" lastModified="1400492093437">
+    <attr name="interfaceIPv6Id">ManagedElement=1,Transport=1,Router=1,InterfaceIPv6=1</attr>
+    <attr name="userLabel">userLabel</attr>
+  </mo>
+</model>
+<!--Generated 1 entries -->

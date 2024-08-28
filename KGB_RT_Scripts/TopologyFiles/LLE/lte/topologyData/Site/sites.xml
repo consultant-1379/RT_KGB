@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Jan 14 05:38:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO_R; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO_R,Site=ERBS-SUBNW-1" mimName="ONRM" mimVersion="13.2.4" lastModified="1610602680668">
+ <attr name="timeZone">UTC+05:30</attr>
+ <attr name="userLabel">ERBS-SUBNW-1</attr>
+ <attr name="SiteId">ERBS-SUBNW-1</attr>
+ </mo>
+</model>

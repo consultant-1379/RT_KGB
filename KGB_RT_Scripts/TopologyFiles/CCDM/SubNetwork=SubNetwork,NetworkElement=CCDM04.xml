@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=CCDM04" mimName="CcdmTop" lastModified="1606302660419">
+	<attr name="timestampOfChange">2020-11-26 11:11:00.419</attr>
+ <attr name="userLabel">CCDM04</attr>
+ <attr name="managedElementType">CCDM</attr>
+ <attr name="nodeVersion">1.3</attr>
+ </mo>
+</model>

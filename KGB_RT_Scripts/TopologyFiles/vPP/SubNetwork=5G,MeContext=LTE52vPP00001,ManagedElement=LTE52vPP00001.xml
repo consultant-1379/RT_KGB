@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=5G,MeContext=LTE52vPP00001,ManagedElement=LTE52vPP00001" mimName="ComTop" lastModified="1614835740362">
+	<attr name="timestampOfChange">2021-03-04 05:29:00.364</attr>
+	<attr name="managedElementType">vPP</attr>
+	<attr name="nodeVersion">18A</attr>
+	<attr name="userLabel">LTE52vPP00001</attr>
+	</mo>
+</model>

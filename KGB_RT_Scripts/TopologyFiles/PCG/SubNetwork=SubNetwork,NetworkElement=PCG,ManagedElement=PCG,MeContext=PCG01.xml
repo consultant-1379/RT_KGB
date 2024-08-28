@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=PCG,ManagedElement=PCG,MeContext=PCG01" mimName="PcgTop" lastModified="1614750120166">
+	<attr name="timestampOfChange">2021-03-03 05:42:00.177</attr>
+ <attr name="userLabel">PCG01</attr>
+ <attr name="managedElementType">PCG</attr>
+ <attr name="nodeVersion">1.3</attr>
+ </mo>
+</model>

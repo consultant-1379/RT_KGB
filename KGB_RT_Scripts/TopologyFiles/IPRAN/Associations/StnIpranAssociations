@@ -1,0 +1,12 @@
+STNName|NodeBName/eNodeBName
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=ERBS-SUBNW-1,MeContext=ERBSC1110-lim,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC01,MeContext=RNC01RBS02,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC01,MeContext=RNC01RBS03,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC02,MeContext=RNC02RBS02,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC02,MeContext=RNC02RBS03,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC03,MeContext=RNC03RBS02,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC03,MeContext=RNC03RBS03,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC04,MeContext=RNC04RBS02,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC04,MeContext=RNC04RBS03,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC05,MeContext=RNC05RBS02,ManagedElement=1
+SubNetwork=ONRM_ROOT_MO,ManagedElement=STN|SubNetwork=ONRM_ROOT_MO,SubNetwork=RNC05,MeContext=RNC05RBS03,ManagedElement=1

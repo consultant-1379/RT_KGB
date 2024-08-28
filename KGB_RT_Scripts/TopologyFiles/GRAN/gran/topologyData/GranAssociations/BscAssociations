@@ -1,0 +1,3 @@
+sourceType|sourceFDN|targetType|targetFDN
+BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BAA01|MSC|SubNetwork=ONRM_ROOT_MO,SubNetwork=NETSim,ManagedElement=MAA01
+BSC|SubNetwork=ONRM_RootMo,SubNetwork=AXE,ManagedElement=BIE01|MSC|SubNetwork=ONRM_ROOT_MO,SubNetwork=NETSim,ManagedElement=MIE01

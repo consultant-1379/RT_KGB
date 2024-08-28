@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881" mimName="ERBS_NODE_MODEL" lastModified="1530197147889">
+	<attr name="timestampOfChange">2018-06-28 15:45:47.889</attr>
+	<attr name="ceLadderKeyID">CXC4010864</attr>
+	<attr name="fingerprint">Integration</attr>
+	<attr name="neMIMversion">2.58</attr>
+	<attr name="managedElementType">ERBS</attr>
+	<attr name="nodeVersion">J.2.58</attr>
+	<attr name="userLabel">LIENB0881</attr>
+	<attr name="swVersion">CXP102051/27_R46A46</attr>
+	<attr name="MeContextId">lienb0881</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=10" mimName="ERBS_NODE_MODEL" lastModified="1530283186016">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.016</attr>
+	<attr name="id">CXC4011620</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=11" mimName="ERBS_NODE_MODEL" lastModified="1530283186017">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.017</attr>
+	<attr name="id">CXC4010626</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=12" mimName="ERBS_NODE_MODEL" lastModified="1530283186017">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.017</attr>
+	<attr name="id">CXC4010623</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=13" mimName="ERBS_NODE_MODEL" lastModified="1530283186018">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.018</attr>
+	<attr name="id">CXC4011484</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=14" mimName="ERBS_NODE_MODEL" lastModified="1530283186019">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.019</attr>
+	<attr name="id">CXC4010324</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=15" mimName="ERBS_NODE_MODEL" lastModified="1530283186019">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.019</attr>
+	<attr name="id">CXC4012088</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=16" mimName="ERBS_NODE_MODEL" lastModified="1530283186020">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.020</attr>
+	<attr name="id">CXC4011039</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=17" mimName="ERBS_NODE_MODEL" lastModified="1530283186021">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.021</attr>
+	<attr name="id">CXC4011162</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=18" mimName="ERBS_NODE_MODEL" lastModified="1530283186021">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.021</attr>
+	<attr name="id">CXC4010720</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=19" mimName="ERBS_NODE_MODEL" lastModified="1530283186022">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.022</attr>
+	<attr name="id">CXC4011483</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=2" mimName="ERBS_NODE_MODEL" lastModified="1530283186010">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.010</attr>
+	<attr name="id">CXC4010608</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=20" mimName="ERBS_NODE_MODEL" lastModified="1530283186023">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.023</attr>
+	<attr name="id">CXC4010624</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=21" mimName="ERBS_NODE_MODEL" lastModified="1530283186023">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.023</attr>
+	<attr name="id">CXC4011621</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=22" mimName="ERBS_NODE_MODEL" lastModified="1530283186024">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.024</attr>
+	<attr name="id">CXC4010627</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=23" mimName="ERBS_NODE_MODEL" lastModified="1530283186024">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.024</attr>
+	<attr name="id">CXC4010718</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=3" mimName="ERBS_NODE_MODEL" lastModified="1530283186011">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.011</attr>
+	<attr name="id">CXC4010625</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=4" mimName="ERBS_NODE_MODEL" lastModified="1530283186012">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.012</attr>
+	<attr name="id">CXC4013000</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=5" mimName="ERBS_NODE_MODEL" lastModified="1530283186012">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.012</attr>
+	<attr name="id">CXC4011182</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=6" mimName="ERBS_NODE_MODEL" lastModified="1530283186013">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.013</attr>
+	<attr name="id">CXC4011040</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=7" mimName="ERBS_NODE_MODEL" lastModified="1530283186014">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.014</attr>
+	<attr name="id">CXC4011161</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=8" mimName="ERBS_NODE_MODEL" lastModified="1530283186014">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.014</attr>
+	<attr name="id">CXC4010719</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,Inventory=1,LicenseInventory=1,CapacityKey=9" mimName="ERBS_NODE_MODEL" lastModified="1530283186015">
+	<attr name="timestampOfChange">2018-06-29 15:39:46.015</attr>
+	<attr name="id">CXC4010864</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1" mimName="ERBS_NODE_MODEL" lastModified="1530283140790">
+	<attr name="timestampOfChange">2018-06-29 15:39:00.790</attr>
+	<attr name="neMIMversion">2.58</attr>
+	<attr name="rrcConnReestActive">false</attr>
+	<attr name="eNodeBPlmnId">
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+</attr>
+	<attr name="mfbiSupport">false</attr>
+	<attr name="licCapDistrMethod">0</attr>
+	<attr name="eNBId">200881</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,AnrFunction=1,AnrFunctionEUtran=1" mimName="ERBS_NODE_MODEL" lastModified="1529069297517">
+	<attr name="timestampOfChange">2018-06-15 14:28:17.517</attr>
+	<attr name="anrIntraFreqState">1</attr>
+	<attr name="anrInterFreqState">0</attr>
+	<attr name="hoAllowedEutranPolicy">true</attr>
+	<attr name="x2SetupPolicy">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,AnrFunction=1,AnrFunctionGeran=1" mimName="ERBS_NODE_MODEL" lastModified="1529069297519">
+	<attr name="timestampOfChange">2018-06-15 14:28:17.519</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	<attr name="anrGeranRacMeasOn">true</attr>
+	<attr name="anrStateGsm">0</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,AnrFunction=1,AnrFunctionUtran=1" mimName="ERBS_NODE_MODEL" lastModified="1529069297522">
+	<attr name="timestampOfChange">2018-06-15 14:28:17.522</attr>
+	<attr name="anrStateUtran">0</attr>
+	<attr name="anrUtranAcMeasOn">true</attr>
+	<attr name="hoAllowedUtranPolicy">true</attr>
+	<attr name="rimIntegrationEnabled">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=2900" mimName="ERBS_NODE_MODEL" lastModified="1529069326621">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.621</attr>
+	<attr name="arfcnValueEUtranDl">2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1" mimName="ERBS_NODE_MODEL" lastModified="1530283177149">
+	<attr name="timestampOfChange">2018-06-29 15:39:37.149</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	</struct>
+</attr>
+	<attr name="EUtranCellFDDId">1</attr>
+	<attr name="altitude">0</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="tac">100</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="ulChannelBandwidth">10000</attr>
+	<attr name="earfcnul">20900</attr>
+	<attr name="cellId">1</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">7</attr>
+	<attr name="physicalLayerSubCellId">0</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,SectorCarrier=1</item>
+	</seq>
+</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	</struct>
+</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="physicalLayerCellIdGroup">81</attr>
+	<attr name="latitude">0</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="earfcndl">2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1,EUtranFreqRelation=1" mimName="ERBS_NODE_MODEL" lastModified="1530283140790">
+	<attr name="timestampOfChange">2018-06-29 15:39:00.790</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="eutranFrequencyRef">SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1,EUtranFreqRelation=1,EUtranCellRelation=1-2" mimName="ERBS_NODE_MODEL" lastModified="1530283140790">
+	<attr name="timestampOfChange">2018-06-29 15:39:00.790</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="isRemoveAllowed">false</attr>
+	<attr name="neighborCellRef">SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=2</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="sCellCandidate">2</attr>
+	<attr name="isHoAllowed">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=2" mimName="ERBS_NODE_MODEL" lastModified="1530283177149">
+	<attr name="timestampOfChange">2018-06-29 15:39:37.149</attr>
+	<attr name="lastModification">0</attr>
+	<attr name="mappingInfo">
+	<struct>
+	<attr name="mappingInfoSIB12">0</attr>
+	<attr name="mappingInfoSIB11">0</attr>
+	<attr name="mappingInfoSIB3">1</attr>
+	<attr name="mappingInfoSIB13">0</attr>
+	<attr name="mappingInfoSIB5">0</attr>
+	<attr name="mappingInfoSIB16">0</attr>
+	<attr name="mappingInfoSIB4">0</attr>
+	<attr name="mappingInfoSIB15">0</attr>
+	<attr name="mappingInfoSIB7">0</attr>
+	<attr name="mappingInfoSIB6">0</attr>
+	<attr name="mappingInfoSIB8">0</attr>
+	<attr name="mappingInfoSIB10">1</attr>
+	</struct>
+</attr>
+	<attr name="EUtranCellFDDId">2</attr>
+	<attr name="altitude">0</attr>
+	<attr name="noOfPucchSrUsers">160</attr>
+	<attr name="tac">100</attr>
+	<attr name="pdcchCfiMode">0</attr>
+	<attr name="ulChannelBandwidth">10000</attr>
+	<attr name="earfcnul">20900</attr>
+	<attr name="cellId">2</attr>
+	<attr name="cellRange">15</attr>
+	<attr name="hostingDigitalUnit">SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1</attr>
+	<attr name="longitude">0</attr>
+	<attr name="freqBand">7</attr>
+	<attr name="physicalLayerSubCellId">1</attr>
+	<attr name="eutranCellCoverage">
+	<struct>
+	<attr name="posCellBearing">-1</attr>
+	</struct>
+</attr>
+	<attr name="noOfPucchCqiUsers">160</attr>
+	<attr name="sectorCarrierRef">
+	<seq count="1">
+	<item>SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,SectorCarrier=2</item>
+	</seq>
+</attr>
+	<attr name="siPeriodicity">
+	<struct>
+	<attr name="siPeriodicitySI10">64</attr>
+	<attr name="siPeriodicitySI6">64</attr>
+	<attr name="siPeriodicitySI5">64</attr>
+	<attr name="siPeriodicitySI2">64</attr>
+	<attr name="siPeriodicitySI4">64</attr>
+	<attr name="siPeriodicitySI3">64</attr>
+	<attr name="siPeriodicitySI1">8</attr>
+	<attr name="siPeriodicitySI9">64</attr>
+	<attr name="siPeriodicitySI8">64</attr>
+	<attr name="siPeriodicitySI7">64</attr>
+	</struct>
+</attr>
+	<attr name="activePlmnList">
+	<seq count="1">
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="physicalLayerCellIdGroup">81</attr>
+	<attr name="latitude">0</attr>
+	<attr name="additionalPlmnList">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">1</attr>
+	<attr name="mnc">1</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="earfcndl">2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=2,EUtranFreqRelation=2" mimName="ERBS_NODE_MODEL" lastModified="1530283140791">
+	<attr name="timestampOfChange">2018-06-29 15:39:00.791</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="eutranFrequencyRef">SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtraNetwork=1,EUtranFrequency=2900</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=2,EUtranFreqRelation=2,EUtranCellRelation=1-1" mimName="ERBS_NODE_MODEL" lastModified="1530283140791">
+	<attr name="timestampOfChange">2018-06-29 15:39:00.791</attr>
+	<attr name="lastModification">6</attr>
+	<attr name="isRemoveAllowed">false</attr>
+	<attr name="neighborCellRef">SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1</attr>
+	<attr name="createdBy">2</attr>
+	<attr name="sCellCandidate">2</attr>
+	<attr name="isHoAllowed">true</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,Paging=1" mimName="ERBS_NODE_MODEL" lastModified="1529069298082">
+	<attr name="timestampOfChange">2018-06-15 14:28:18.082</attr>
+	<attr name="nB">2</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,SectorCarrier=1" mimName="ERBS_NODE_MODEL" lastModified="1529069326578">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.578</attr>
+	<attr name="SectorCarrierId">1</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=1</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,SectorCarrier=2" mimName="ERBS_NODE_MODEL" lastModified="1529069326578">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.578</attr>
+	<attr name="SectorCarrierId">2</attr>
+	<attr name="reservedBy">
+	<seq count="1">
+	<item>SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,EUtranCellFDD=2</item>
+	</seq>
+</attr>
+	<attr name="noOfRxAntennas">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,TermPointToMme=1" mimName="ERBS_NODE_MODEL" lastModified="1529069326572">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.572</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ENodeBFunction=1,TermPointToMme=MME_010037000049" mimName="ERBS_NODE_MODEL" lastModified="1529069326572">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.572</attr>
+	<attr name="mmeCodeListLTERelated">
+	<seq count="1">
+	<item>100</item>
+	</seq>
+</attr>
+	<attr name="servedPlmnListLTERelated">
+	<seq count="5">
+	<item>
+	<struct>
+	<attr name="mcc">440</attr>
+	<attr name="mnc">50</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">38</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">262</attr>
+	<attr name="mnc">49</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">234</attr>
+	<attr name="mnc">58</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	<item>
+	<struct>
+	<attr name="mcc">235</attr>
+	<attr name="mnc">91</attr>
+	<attr name="mncLength">2</attr>
+	</struct>
+	</item>
+	</seq>
+</attr>
+	<attr name="mmeGIListLTERelated">
+	<seq count="1">
+	<item>32768</item>
+	</seq>
+</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,DeviceGroup=dul,BbProcessingResource=1" mimName="ERBS_NODE_MODEL" lastModified="1529069326667">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.667</attr>
+	<attr name="licCapDistr">100</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,ExchangeTerminalIp=1,GigaBitEthernet=1" mimName="ERBS_NODE_MODEL" lastModified="1529069326666">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.666</attr>
+	<attr name="portNo">2</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,Equipment=1,Subrack=1,Slot=1,PlugInUnit=1,GeneralProcessorUnit=1,ProcessorLoad=1" mimName="ERBS_NODE_MODEL" lastModified="1529069326579">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.579</attr>
+	<attr name="ProcessorLoadId">1</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,IpOam=1,Ip=1" mimName="ERBS_NODE_MODEL" lastModified="1529069326578">
+	<attr name="timestampOfChange">2018-06-15 14:28:46.578</attr>
+	<attr name="nodeIpAddress">10.64.208.81</attr>
+	</mo>
+	<mo fdn="SubNetwork=SubNetwork,MeContext=lienb0881,ManagedElement=1,ManagedElementData=1" mimName="ERBS_NODE_MODEL" lastModified="1530177032158">
+	<attr name="timestampOfChange">2018-06-28 10:10:32.158</attr>
+	</mo>
+</model>

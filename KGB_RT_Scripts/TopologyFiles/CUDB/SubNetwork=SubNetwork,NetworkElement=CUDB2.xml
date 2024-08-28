@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+	<mo fdn="SubNetwork=SubNetwork,NetworkElement=CUDB2" mimName="ONRM" lastModified="1585649122662">
+	<attr name="timestampOfChange">2020-03-31 11:05:22.662</attr>
+	<attr name="userLabel">CUDB2</attr>
+	<attr name="managedElementType">CUDB</attr>
+	<attr name="sourceType">ESA</attr>
+	<attr name="nodeVersion">1.19</attr>
+	</mo>
+</model>

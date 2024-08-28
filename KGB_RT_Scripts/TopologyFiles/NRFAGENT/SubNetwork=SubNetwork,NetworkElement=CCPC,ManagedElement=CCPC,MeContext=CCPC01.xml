@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=SubNetwork,NetworkElement=CCPC,ManagedElement=CCPC,MeContext=CCPC01" mimName="CCPCTop" lastModified="1609236300517">
+	<attr name="timestampOfChange">2020-12-29 10:05:00.517</attr>
+ <attr name="userLabel">CCPC01</attr>
+ <attr name="managedElementType">CCPC</attr>
+ <attr name="nodeVersion">1.1</attr>
+ </mo>
+</model>

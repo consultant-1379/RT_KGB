@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="userLabel">G2RBS01</attr>
+ <attr name="swVersion">CXP9024418/12_R35A108</attr>
+ <attr name="managedElementType">RadioNode</attr>
+ <attr name="neMIMversion">19.Q2-R35A16</attr>
+ <attr name="fingerprint">G2RBS01_fp</attr>
+ <attr name="nodeVersion">21.Q1</attr>
+ <attr name="ceLadderKeyID">RadioNode</attr>
+ <attr name="release">21.Q1</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,GNBDUFunction=1,Paging=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,SystemFunctions=1,SysM=1,OamAccessPoint=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="oamAccessPointId">23</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,GNodeBFunction=1,GNBCUCPFunction=1,EUtraNetwork=1,ExternalENodeBFunction=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,GNBCUCPFunction=1,NRCellCU=1,EUtranFreqRelation=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,GNBCUCPFunction=1,EUtraNetwork=1,EUtranFrequency=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="arfcnValueEUtranDl">47</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,Transport=1,Router=1,TwampInitiator=1,TwampTestSession=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="twampTestSessionId">4</attr>
+ <attr name="dscp">0</attr>
+ <attr name="profileType">FULL_RESOLUTION_10</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,Transport=1,Router=1,TwampResponder=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="udpPort">0</attr>
+ <attr name="twampResponderId">52</attr>
+ <attr name="responderType">LIGHT</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,Equipment=1,FieldReplaceableUnit=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="productData">
+<struct>
+</struct>
+</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,GNBDUFunction=1,NRCellDU=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="nCGI">33</attr>
+ <attr name="cellLocalId">52</attr>
+ <attr name="pLMNIdList">
+ <seq count="2">
+ <item>262:49</item>
+ <item>
+<struct>
+ <attr name="mcc">87</attr>
+ <attr name="mnc">4</attr>
+</struct>
+</item>
+ </seq>
+</attr>
+ <attr name="nRTAC">72</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,GNBCUCPFunction=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="gNBId">0</attr>
+ <attr name="pLMNIdList">
+ <seq count="3">
+ <item>52:95</item>
+ <item>11:83</item>
+ <item>54:56</item>
+ </seq>
+</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=G2RBS,MeContext=G2RBS01,ManagedElement=1,GNBCUCPFunction=1,NRCellCU=1" mimName="ECIM_Top" lastModified="1614087780061">
+<attr name="timestampOfChange">2021-02-23 13:43:00.000</attr> 
+ <attr name="nCGI">33</attr>
+ <attr name="cellLocalId">94</attr>
+ <attr name="pLMNIdList">
+ <seq count="2">
+ <item>262:49</item>
+ <item>
+<struct>
+ <attr name="mcc">61</attr>
+ <attr name="mnc">90</attr>
+</struct>
+</item>
+ </seq>
+</attr>
+ <attr name="primaryPLMNId">
+<struct>
+ <attr name="mcc">12</attr>
+ <attr name="mnc">65</attr>
+</struct>
+</attr>
+ </mo>
+</model>

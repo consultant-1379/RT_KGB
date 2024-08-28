@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Fri Jan 08 15:07:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,NetworkElement=ROUTER02,MeContext=ROUTER02; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,NetworkElement=ROUTER02,MeContext=ROUTER02" mimName="ComTop" lastModified="1610118420584">
+ <attr name="timestampOfChange">2021-01-18 15:07:00.584</attr>
+ <attr name="userLabel">ROUTER02</attr>
+ <attr name="utcOffset">+00:00</attr>
+ <attr name="managedElementType">ROUTER02</attr>
+ <attr name="nodeVersion">Router6X71 20.Q4</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,NetworkElement=ROUTER02,MeContext=ROUTER02,qos=1,policy=CORE,pwfq=1,queue=0,queue-choice=1,priority=1" mimName="ComTop" lastModified="1610118420584">
+ <attr name="timestampOfChange">2021-01-18 15:07:00.584</attr>
+ <attr name="strict-priority">0</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,NetworkElement=ROUTER02,MeContext=ROUTER02,qos=1,policy=CORE,pwfq=1,rate=1,pir=1" mimName="ComTop" lastModified="1610118420584">
+ <attr name="timestampOfChange">2021-01-18 15:07:00.584</attr>
+ <attr name="rate-num">1000000</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,NetworkElement=ROUTER02,MeContext=ROUTER02,qos=1,policy=pwfq3,pwfq=1,queue=0,queue-choice=1,priority=1" mimName="ComTop" lastModified="1610118420584">
+ <attr name="timestampOfChange">2021-01-18 15:07:00.584</attr>
+ <attr name="weight">20</attr>
+ </mo>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,NetworkElement=ROUTER02,MeContext=ROUTER02,interfaces=1,interface=1/4.1" mimName="ComTop" lastModified="1610118420584">
+ <attr name="timestampOfChange">2021-01-18 15:07:00.584</attr>
+ <attr name="name">1/4.1</attr>
+ <attr name="type">l2vlan</attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE model PUBLIC " -//Ericsson NMS CIF CS//CS Export Filter DTD// export.dtd" "systmId">
+<model>
+<mo fdn="SubNetwork=MTAS_Sub,ManagedElement=MTAS01" mimName="ComTop" lastModified="1614088500326">
+	<attr name="timestampOfChange">2021-02-23 13:55:00.343</attr>
+ <attr name="userLabel">MTAS01</attr>
+ <attr name="utcOffset">+01:00</attr>
+ <attr name="managedElementType">vMTAS</attr>
+ <attr name="nodeVersion">1.19</attr>
+ </mo>
+</model>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE model PUBLIC "-//Ericsson NMS CIF CS//CS Export Filter DTD//" "export.dtd">
+<!-- Generated on Thu Mar 04 12:49:00 GMT 2021 -->
+<!-- Generated from configuration valid -->
+<!-- Query - Base MO SubNetwork=ONRM_ROOT_MO,SubNetwork=IMS,ManagedElement=MGC02,MgcFunction=MGC; Scope 8 -->
+<model>
+<mo fdn="SubNetwork=ONRM_ROOT_MO,SubNetwork=IMS,ManagedElement=MGC02,MgcFunction=MGC" mimName="ONRM" mimVersion="13.2.4" lastModified="1614862140148">
+ <attr name="userLabel">MGC</attr>
+ <attr name="nodeVersion">W17B</attr>
+ <attr name="siteRef">SubNetwork=ONRM_ROOT_MO,Site=MSMGC</attr>
+ <attr name="managedElementType">
+  <seq count="1">
+    <item>MGC</item>
+  </seq>
+ </attr>
+ </mo>
+</model>
+<!-- Generated 1 entries -->

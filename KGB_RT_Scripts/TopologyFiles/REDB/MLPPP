@@ -1,0 +1,11 @@
+nodeFDN|userLabel|nodeVersion|nodeType|sourceType|siteFDN
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP01|MLPPP01|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP02|MLPPP02|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP03|MLPPP03|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP04|MLPPP04|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP05|MLPPP05|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP06|MLPPP06|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP07|MLPPP07|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP08|MLPPP08|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP09|MLPPP09|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
+SubNetwork=ONRM_RootMo,ManagedElement=MLPPP10|MLPPP10|SE-800|ML-PPPRouter|Redback|SubNetwork=ONRM_ROOT_MO,Site=Athlone
